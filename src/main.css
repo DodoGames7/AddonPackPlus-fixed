@@ -143,6 +143,84 @@ code, .codeLine-14BKbG { font-family: 'Fira Code', monospace; }
 		--hovered-bg: var(--maincolor-tttt1);
 		/* Don't Mess With Unless You Know What Your Doing */
 	}
+[href="/channels/811203761619337259/811644977637621760"] > div > svg > path { d: path("m 26 0 h -18 c -1.65 0 -3 1.35 -3 3 v 3.858 s 3.854 2.24 4.098 2.38 c 0.31 0.18 0.694 0.177 1.004 0 c 0.26 -0.147 8.02 -4.608 8.136 -4.675 c 0.279 -0.161 0.58 -0.107 0.748 -0.01 c 0.164 0.097 0.606 0.348 0.84 0.48 c 0.232 0.134 0.221 0.502 0.013 0.622 l -9.712 5.59 c -0.346 0.2 -0.69 0.204 -1.048 0.002 c -0.601 -0.34 -3.081 -1.784 -4.079 -2.365 v 2.02 l 4.098 2.38 c 0.31 0.18 0.694 0.177 1.004 0 c 0.26 -0.147 8.02 -4.609 8.136 -4.676 c 0.279 -0.16 0.58 -0.106 0.748 -0.008 c 0.164 0.096 0.606 0.347 0.84 0.48 c 0.232 0.133 0.221 0.5 0.013 0.62 c -0.208 0.121 -9.288 5.346 -9.712 5.59 c -0.346 0.2 -0.69 0.205 -1.048 0.002 c -0.601 -0.339 -3.081 -1.784 -4.079 -2.364 v 2.02 l 4.098 2.38 c 0.31 0.18 0.694 0.177 1.004 0 c 0.26 -0.147 8.02 -4.609 8.136 -4.676 c 0.279 -0.16 0.58 -0.106 0.748 -0.009 c 0.164 0.097 0.606 0.348 0.84 0.48 c 0.232 0.133 0.221 0.502 0.013 0.622 l -9.712 5.59 c -0.346 0.199 -0.69 0.204 -1.048 0.001 c -0.601 -0.34 -3.081 -1.784 -4.079 -2.364 v 4.03 c 0 1.65 1.35 3 3 3 h 18 c 1.65 0 3 -1.35 3 -3 v -18 c 0 -1.65 -1.35 -3 -3 -3 z"); transform: scale(0.8); }
+	[href="/channels/811203761619337259/820232999878393856"] > div > svg > path { d: path("M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"); transform: scale(1.5); }
+	[href="/channels/811203761619337259/820235200528908289"] > div > svg > path { d: path("M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z"); transform: scale(1.1); }
+	/* User buttons */
+	.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 { position: fixed; bottom: 0px; left: 0px; width: 72px; z-index: 1; padding: 30px 0 60px 0 !important; flex-direction: column; background: linear-gradient(transparent, var(--background-tertiary) 15%); }
+	.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color); margin: var(--user-buttons-spacing) auto 0 auto; }
+	/* Avatar of the user */
+	.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp { position: fixed; bottom: 10.5px; left: 15.5px; z-index: 2; margin: 0; }
+	.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp > .avatar-SmRMf2 { width: 40px !important; height: 40px !important; }
+	.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp > .avatar-SmRMf2:hover { opacity: 1; }
+	/* Hiding avatar */
+	.content-98HsJk > :nth-child(2):not(.chat-3bRxxu) { z-index: 2; }
+	.channelTextArea-rNsIhG .scrollableContainer-2NUZem:after, .form-2fGMdU .wrapper-39oAo3:after { position: absolute; content: ""; bottom: 2px; left: -50px; width: none !important; height: none !important; background: none !important; background-size: 90%; background-color: var(--background-secondary); border-radius: calc(var(--avatar-radius) + 2px); }
+	.channelTextArea-rNsIhG { right: 60px !important; width: 1380px !important; bottom: -15px !important; }
+	.sidebar-2K8pFh { width: 0px; transition: .5s ease; }
+	.base-3dtUhz { border-radius: 0px 0 0; }
+	.wrapper-3NnKdC:hover + .base-3dtUhz > .content-98HsJk > .sidebar-2K8pFh { width: 240px; }
+	.sidebar-2K8pFh:hover { width: 240px; }
+	*/ .buttons-cl5qTG { right: 200px !important; }
+	/* Bubble Member List - By Leeprky#2063*/
+	:root { --hover-animation-speed: 0.35s; --seperator-color: var(--background-accent); }
+	.members-1998pB { transition: transform var(--hover-animation-speed); }
+	.membersWrap-2h-GB4 { min-width: unset; width: 40px; justify-content: left; }
+	.content-3QAtGj .subText-1KtqkB { display: none; }
+	.membersWrap-2h-GB4:hover .members-1998pB { transform: translateX(-260px); }
+	.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe { background-color: unset; margin-left: 0px; transition: margin-left var(--hover-animation-speed); }
+	.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe { margin-left: 15px; }
+	.membersWrap-2h-GB4:hover .membersGroup-v9BXpm { transform: translateX(2px); }
+	.membersWrap-2h-GB4 .membersGroup-v9BXpm { cursor: default; transform: translateX(-10px); transition: transform var(--hover-animation-speed); overflow: visible; }
+	.members-1998pB { border-radius: 18px 18px 18px 18px !important; left: 37px; margin-top: 100px; margin-bottom: 15px; }
+	::-webkit-scrollbar { display: none; }
+	.membersWrap-2h-GB4 { left: 45px; margin-right: 40px; bottom: 75px; background-color: rgba(216, 27, 27, 0); }
+	.chatContent-a9vAAp { background-color: var(--background-primary); border-radius: 0 15px 0 0 !important; margin-left: -0px; margin-right: -40px; }
+	.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { margin-left: 20px; }
+	.base-gE7OpD { right: -5px; top: 45px; }
+	.buttons-3JBrkn { position: relative; left: -10px }
+	/* END */
+	.cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .embedFull-2tM8--, .wrapper-35wsBm, .message-2qnXI6 .imageWrapper-2p5ogY, .cozy-3raOZG .repliedMessage-VokQwo { box-shadow: 8px 8px 0px var(--background-tertiary) !important; /*Parameters: PosX PosY Blur Color */ }
+	/* Add transparency & blur to the loading screen */
+	.container-16j22k { background-color: rgba(0, 0, 0, 0.8); backdrop-filter: blur(5px); }
+	.closedFolderIconWrapper-2sTcE6 { display: flex; justify-content: center; align-items: center; }
+	.closedFolderIconWrapper-2sTcE6 * { display: none; }
+	.closedFolderIconWrapper-2sTcE6::after { content: ''; width: 24px; height: 24px; position: relative; display: block; background: #000; -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat; }
+	/* If you don't like one of those variables until "Other settings" you can delete them or you can also
+    try to change those if you have some css knowledge */
+	/* User popout animation */
+	.headerPlaying-j0WQBV.header-2BwW8b, .headerSpotify-zpWxgT.header-2BwW8b, .headerStreaming-2FjmGz.header-2BwW8b, .headerXbox-3G-4PF.header-2BwW8b { padding-bottom: 30px; }
+	.headerPlaying-j0WQBV.header-2BwW8b:after, .headerSpotify-zpWxgT.header-2BwW8b:after, .headerStreaming-2FjmGz.header-2BwW8b:after, .headerXbox-3G-4PF.header-2BwW8b:after { background: url('https://nyri4.github.io/Comfy/assets/wave.png'); background-size: 250px 20px; animation: animate 6s linear infinite !important; opacity: 1 !important; }
+	.header-2BwW8b:after, .headerPlaying-j0WQBV:before, .headerSpotify-zpWxgT:before, .headerStreaming-2FjmGz:before, .headerXbox-3G-4PF:before { position: absolute; content: ""; bottom: -1px; left: 0; width: 250px; height: 20px; z-index: -1; animation: animate2 6s linear infinite; animation-delay: 0s; opacity: 0.5; }
+	.headerPlaying-j0WQBV:before { background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png'); background-size: 250px 20px; }
+	.headerSpotify-zpWxgT:before { background: url('https://nyri4.github.io/Comfy/assets/wave_spotify.png'); background-size: 250px 20px; }
+	.headerStreaming-2FjmGz:before { background: url('https://nyri4.github.io/Comfy/assets/wave_streaming.png'); background-size: 250px 20px; }
+	.headerXbox-3G-4PF:before { background: url('https://nyri4.github.io/Comfy/assets/wave_xbox.png'); background-size: 250px 20px; }
+	@keyframes animate { 0% { background-position-x: 0; }
+		100% { background-position-x: 250px; } }
+	@keyframes animate2 { 0% { background-position-x: 250px; }
+		100% { background-position-x: 0px; } }
+	/* No scrollbars */
+	::-webkit-scrollbar { display: none !important; }
+	.note-3HfJZ5 { margin-right: 0; }
+	.content-1x5b-n { margin: 0 !important; border-radius: 0; }
+	.mainContent-u_9PKf { padding-left: 8px; }
+	.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }
+	.layout-2DM8Md { border-radius: 0; padding: 0 16px; }
+	.unread-2lAfLh { z-index: 1; }
+	.content-1LAB8Z, .item-1tOPte { margin-right: 8px; }
+	.scroller-2hZ97C { padding-left: 0; }
+	.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }
+	.inviteRow-2L02ae { border-radius: 0; padding-left: 15px; }
+	/* Better Spotify plugin seek bar */
+	.container-6sXIoE { border-bottom: none !important; }
+	.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: 0 !important; left: 0 !important; width: 240px !important; height: 54px !important; margin-bottom: 0 !important; -webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important; mask-image: linear-gradient(0.25turn, #0008, #0002) !important; border-radius: 0 !important; }
+	.bar-g2ZMIm .barFill-Dhkah7 { border-radius: 0 !important; }
+	.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 87px !important; }
+	.container-6sXIoE .button-14-BFJ:hover { background-color: transparent !important; }
+	.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important; }
+	.inner-WRV6k5 { z-index: 1 !important; }
+	.barText-lmqc5O, .grabber-7sd5f5 { display: none !important; } }
 
 /*  */
 #app-mount div.layerContainer-yqaFcK.da-layerContainer div.backdropWithLayer-3_uhz4.da-backdropWithLayer, .da-backdrop, #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .tools-3-3s-N .closeButton-1tv5uR::after, #app-mount .layer-3QrUeG[aria-label*=RTC] .contentRegion-3nDuYy .tools-3-3s-N .closeButton-1tv5uR::after {
