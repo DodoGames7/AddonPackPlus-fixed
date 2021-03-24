@@ -1,0 +1,175 @@
+/* ==UserStyle==
+@name           DiscordAddonPack
+@namespace      github.com/TheRealGWJosh
+@version        2021.24.3
+@description    Adds a New look to Discord
+@author         TheRealGWJosh#0001
+@license        CC0-1.0
+@preprocessor   uso
+@homepageURL    https://github.com/TheRealGWJosh/AddonPackPlus
+@updateURL      https://github.com/TheRealGWJosh/AddonPackPlus
+@supportURL     https://github.com/TheRealGWJosh/AddonPackPlus/issues
+@var color mainp1 'Main Color P1' #8c8e4e
+@var text maing1 'Main Color G1' #8c8e4e 0%
+@var text main1 'Main Color' 140, 142, 78
+@var color mainc1 'Main Color C1' rgba(140, 142, 78);
+@var color maint1 'Main Color T1' rgba(140, 142, 78, .6)
+@var color maints1 'Main Color TS1' rgba(140, 142, 78, .84)
+@var color maintt1 'Main Color TT1' rgba(140, 142, 78, .1)
+@var color mainttt1 'Main Color TTT1' rgba(140, 142, 78, .18)
+@var color maintttt1 'Main Color TTTT1' rgba(140, 142, 78, 0.25)
+@var color nextp2 'Secondary Color P2' #8945b0
+@var text nextg2 'Secondary Color G2' #8945b0 74%
+@var text next2 'Secondary Color 2' 137, 69, 176
+@var color idle "RS Idle Color" #006d5c
+@var color dnd "RS DND Color" #690101
+@var color off "RS Offline Color" #616365
+@var color stream "RS Streaming Color" #5e00ff
+@var text avr 'Avatar Radius' 5px
+==/UserStyle== */
+@-moz-document domain("discord.com") {
+	@import url("https://nyri4.github.io/Comfy/betterdiscord/main.css");
+	:root {
+		/* -- Others settings -- */
+		/* User button spacing */
+		--user-buttons-spacing: 8px;
+
+		/* Avatar roundess */
+		--avatar-radius: 5px;
+
+		/* Status roundness */
+		--status-radius: 3px;
+
+		/* Server roundess */
+		--server-radius: 8px;
+
+		/* Avatar width in modals */
+		--avatar-width: 130px;
+
+		/* Change bonfire in modals */
+		--bonfire: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
+
+
+		--hover-animation-speed: 0.35s;
+		--seperator-color: var(--background-accent);
+		--avatar-mask: none;
+		/* Set it to url(#svg-mask-avatar-status-round-32) if you want it */
+		--avatar-radius: 5px;
+		/* Avatar roundess - You can't use it if you deleted the 2 lines of Avatar without status */
+		/* Avatar width in modals */
+		--avatar-width: 130px;
+
+		/* Server roundess */
+		--server-radius: 8px;
+
+		/* Colored emoji picker */
+		--colored-emoji: grayscale(0%);
+		/* Change the value to "100%" if you want the basic one */
+		/* -- Others settings -- */
+		/* Mention color */
+		--mention-color: #bda858;
+		--unread-color: #a8a55d;
+
+		/* Mention color in chat */
+		--mention-color-bar: #bda858;
+		--mention-color-background: #bda8581f;
+		--mention-color-hover: #bda85826;
+
+		/* User settings color (Mute, Deafen and settings) */
+		--user-buttons-color: #515355;
+
+		/* Chat buttons color */
+		--chat-buttons: #b4b8bc;
+
+		/* Circles next to role names */
+		--role-circle: 5px;
+		/* Set it to "0px" if you don't want circles */
+		/* Tooltips */
+		--tooltips: block;
+		/* Set it to "none" if you don't want it */
+		/* Discord logo */
+		--discord-logo: none;
+		/* Set it to "block" if you want it */
+		/* Main Color */
+		--maincolor-p1: /*[[mainp1]]*/;
+		--maincolor-g1: /*[[maing1]]*/;
+		--maincolor-1: /*[[main1]]*/;
+		--maincolor-c1: /*[[mainc1]]*/;
+		--maincolor-t1: /*[[maint1]]*/;
+		--maincolor-ts1: /*[[maints1]]*/;
+		--maincolor-tt1: /*[[maintt1]]*/;
+		--maincolor-ttt1: /*[[mainttt1]]*/;
+		--maincolor-tttt1: /*[[maintttt1]]*/;
+
+		/* Secondary Color */
+		--maincolor-p2: /*[[nextp2]]*/;
+		--maincolor-g2: /*[[nextg2]]*/;
+		--maincolor-2: /*[[next2]]*/;
+
+		/* How Round The PFP is 50% = Circle 0% = Square */
+		--avatarradius: /*[[avr]]*/;
+
+		/* Activity Card Colors */
+		--xbox-bg: #107C10;
+		--xbox-bg-backdrop: #0a530a;
+		--spotify-bg: #1DB954;
+		--spotify-bg-backdrop: #218F4F;
+		--streaming-bg: #9059F6;
+		--streaming-bg-backdrop: #694EA8;
+		--default-bg: var(--maincolor-c1);
+		--default-bg-backdrop: var(--maincolor-ts1);
+		/* Gradients Colors */
+		--special-gradient: var(--gradient-direction-2), #8980F0 0%, #D577F0 74%;
+		--red-gradient: var(--gradient-direction-2), #AA3738 0%, #F04747 74%;
+		--yellow-gradient: var(--gradient-direction-2), #C2831B 0%, #FFB740 74%;
+		--green-gradient: var(--gradient-direction-2), #264D41 0%, #43B581 74%;
+		--grey-gradient: var(--gradient-direction-2), #373A45 0%, #747F8D 74%;
+		--white-gradient: var(--gradient-direction-2), rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+
+		/* Warning */
+		/* Don't Mess With Unless You Know What Your Doing */
+		--accentcolor: var(--maincolor-1);
+		--link-colour: var(--maincolor-2);
+		--linkcolor: var(--maincolor-2);
+		--rs-avatar-shape: var(--avatarradius);
+		--avatar-radius: var(--avatarradius);
+		/* Cards */
+		--activity-border-radius: 3px;
+		--activity-box-shadow: 2px 2px 2px;
+		--activity-modal-color: var(--background-tertiary);
+		/* Gradients */
+		--default-gradient: var(--gradient-direction-2), var(--maincolor-g1), var(--maincolor-g2);
+		--gradient-direction: 180deg;
+		--gradient-direction-2: 315deg;
+		/* Hover Scale */
+		--HoverScale: 1.025;
+		/* Transition Time */
+		--TransitionTime: 0.25s;
+		/* Ease Type */
+		--EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+		/* Transitions */
+		--font-normal: 500;
+		--font-hover: bold;
+		--font-size-hover: 15px;
+		--hover-transition: 0.1s linear;
+		--transform-normal: scale(1);
+		--hover-transform: scale(1.15);
+		--setting-hover-transform: scale(1.025);
+		--button-hover-transform: scale(1.03);
+		--bg-rounding: 0 0px 0px 0;
+		--border-info: 2px solid;
+		--background-message-hover: transparent;
+		--unread-badge: var(--maincolor-1);
+		--unread-bg: var(--maincolor-t1);
+		--selected-badge: var(--maincolor-1);
+		--selected-bg: var(--maincolor-tt1);
+		--selected-bg-hover: var(--maincolor-ttt1);
+		--hovered-bg: var(--maincolor-tttt1);
+		--scrollbar-thumb-dark: #f8f9fa !important;
+		--scrollbar-track-dark: --burple !important;
+		--burple: var(--maincolor-p1);
+		--nsfw-color: var(--maincolor-p2);
+		--sfw-color: var(--maincolor-p1);
+		/* Don't Mess With Unless You Know What Your Doing */
+	}
+}
