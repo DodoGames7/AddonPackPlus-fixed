@@ -20,6 +20,68 @@
 code, .codeLine-14BKbG { font-family: 'Fira Code', monospace; }
 
 	:root { 
+		/* Activity Card Colors */
+		--xbox-bg: #107C10;
+		--xbox-bg-backdrop: #0a530a;
+		--spotify-bg: #1DB954;
+		--spotify-bg-backdrop: #218F4F;
+		--streaming-bg: #9059F6;
+		--streaming-bg-backdrop: #694EA8;
+		--default-bg: var(--maincolor-c1);
+		--default-bg-backdrop: var(--maincolor-ts1);
+		/* Gradients Colors */
+		--special-gradient: var(--gradient-direction-2), #8980F0 0%, #D577F0 74%;
+		--red-gradient: var(--gradient-direction-2), #AA3738 0%, #F04747 74%;
+		--yellow-gradient: var(--gradient-direction-2), #C2831B 0%, #FFB740 74%;
+		--green-gradient: var(--gradient-direction-2), #264D41 0%, #43B581 74%;
+		--grey-gradient: var(--gradient-direction-2), #373A45 0%, #747F8D 74%;
+		--white-gradient: var(--gradient-direction-2), rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+
+		/* Warning */
+		/* Don't Mess With Unless You Know What Your Doing */
+		--accentcolor: var(--maincolor-1);
+		--link-colour: var(--maincolor-2);
+		--linkcolor: var(--maincolor-2);
+		--rs-avatar-shape: var(--avatarradius);
+		--avatar-radius: var(--avatarradius);
+		/* Cards */
+		--activity-border-radius: 3px;
+		--activity-box-shadow: 2px 2px 2px;
+		--activity-modal-color: var(--background-tertiary);
+		/* Gradients */
+		--default-gradient: var(--gradient-direction-2), var(--maincolor-g1), var(--maincolor-g2);
+		--gradient-direction: 180deg;
+		--gradient-direction-2: 315deg;
+		/* Hover Scale */
+		--HoverScale: 1.025;
+		/* Transition Time */
+		--TransitionTime: 0.25s;
+		/* Ease Type */
+		--EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+		/* Transitions */
+		--font-normal: 500;
+		--font-hover: bold;
+		--font-size-hover: 15px;
+		--hover-transition: 0.1s linear;
+		--transform-normal: scale(1);
+		--hover-transform: scale(1.15);
+		--setting-hover-transform: scale(1.025);
+		--button-hover-transform: scale(1.03);
+		--bg-rounding: 0 0px 0px 0;
+		--border-info: 2px solid;
+		--background-message-hover: transparent;
+		--unread-badge: var(--maincolor-1);
+		--unread-bg: var(--maincolor-t1);
+		--selected-badge: var(--maincolor-1);
+		--selected-bg: var(--maincolor-tt1);
+		--selected-bg-hover: var(--maincolor-ttt1);
+		--hovered-bg: var(--maincolor-tttt1);
+		--scrollbar-thumb-dark: #f8f9fa !important;
+		--scrollbar-track-dark: --burple !important;
+		--burple: var(--maincolor-p1);
+		--nsfw-color: var(--maincolor-p2);
+		--sfw-color: var(--maincolor-p1);
+		/* Don't Mess With Unless You Know What Your Doing */
 		/* Gradients Colors */
 		--special-gradient: var(--gradient-direction-2),
 		#8980F0 0%,
