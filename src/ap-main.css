@@ -620,8 +620,6 @@ button[aria-label="Open sticker picker"] {
     top: -24px; /* height is 24px */
     background-color: var(--mention-color);
     border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
     padding: 0px 40px 0px 0px;
 
