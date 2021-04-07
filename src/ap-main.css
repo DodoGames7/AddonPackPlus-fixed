@@ -304,7 +304,7 @@ button[aria-label="Open sticker picker"] {
 
 .members-1998pB,
 .membersWrap-2h-GB4 {
-  border-radius: 20px 0 0 20px !important;
+  border-radius: 0 0 0 0 !important;
   width: 60px;
   min-width: 60px;
   transition-property: width, min-width, box-shadow;
