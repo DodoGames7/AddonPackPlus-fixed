@@ -612,27 +612,6 @@ button[aria-label="Open sticker picker"] {
 
 
 }
-
-.closedFolderIconWrapper-15K9MK {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.closedFolderIconWrapper-15K9MK * {
-    display:none;
-}
-
-.closedFolderIconWrapper-15K9MK::after {
-    content:'';
-    width:24px;
-    height:24px;
-    position:relative;
-    display:block;
-    background: var(--mention-color);
-    -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat;
-}
-
 .scrollableContainer-2NUZem {
     border-radius: 0px;
     min-height: 53px;
@@ -647,21 +626,6 @@ button[aria-label="Open sticker picker"] {
 }
 .blockquoteContainer-U5TVEi blockquote {
     text-indent: -7px;
-}
-/* User buttons */
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 72px;
-  z-index: 1;
-  padding: 30px 0 60px 0;
-  flex-direction: column;
-  background: linear-gradient(transparent, var(--background-tertiary) 15%);
-}
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
-  color: var(--user-buttons-color);
-  margin: var(--user-buttons-spacing) auto 0 auto;
 }
 /*------------------------------------------------------------------------------------------*/
 
