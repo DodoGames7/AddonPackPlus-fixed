@@ -1,7 +1,7 @@
 @-moz-document domain("discord.com")/* ==UserStyle==
 @name           AddonPack+
 @namespace      github.com/TheRealGWJosh
-@version        1.0.1
+@version        1.0.2
 @description    AddonPack+ is a Discord Theme Based off of NYRI4's Comfy And a Bunch of snippets from The Powercord Community While Keeping Discord's Main Colors
 @author         It'sJustJosh#1156
 @license        CC0-1.0
@@ -9,6 +9,41 @@
 @homepageURL    https://github.com/TheRealGWJosh/AddonPackPlus
 @updateURL      https://github.com/TheRealGWJosh/AddonPackPlus/raw/main/AddonPackPlus.user.styl
 @supportURL     https://github.com/TheRealGWJosh/AddonPackPlus/issues  
+@var color bt "Background Tertiary" #101320
+@var color bs "Background Secondary" #1e2233
+@var color bsa "Background Secondary Alt" #191f2e
+@var color bp "Background Primary" #23283d
+@var color bmp "Background Mobile Primary" #23283d
+@var color bmsec "Background Mobile Secondary" #1e2233
+@var color ctab "Channeltextarea Background" #191f2e
+@var color ba "Background Accent" #6E85D3
+@var color bmh "Background Message Hover" transparent
+@var color bmodh "Background Modifier Hover" #1c2030
+@var color bma "Background Modifier Active" #1a1e2e
+@var color bmsel "Background Modifier Selected" #191f2e
+@var color dcbg "Deprecated Card BG" #12141f63
+@var color bf "Background Floating" #101320
+@var color dqib "Deprecated Quickswitcher Input Background" #101320
+@var text el "Elevation Low" none
+@var color sathumb "Scrollbar Auto Thumb" #121722
+@var color satrack "Scrollbar Auto Track" #191f2e
+@var color stt "Scrollbar Thin Thumb" #141925
+@var color acbg "Activity Card Background" #101320
+@var select comfy "Comfy Theme On/Off" {
+"On":                  "https://therealgwjosh.github.io/AddonPackPlus/src/comfy-vars.css",
+"Off":                                                                             "none"}
+@var select addon "AddonPack On/Off" {
+"On":                     "https://therealgwjosh.github.io/AddonPackPlus/src/ap-main.css",
+"Off":                                                                             "none"}
+@var select bcss "Bubblecord Servers & Settings" {
+"On":     "https://therealgwjosh.github.io/AddonPackPlus/src/BC-Servers-and-Settings.css",
+"Off":                                                                             "none"}
+@var select nbup "Nebula Userpopout" {
+"On":           "https://therealgwjosh.github.io/AddonPackPlus/src/Nebula-Userpopout.css",
+"Off":                                                                             "none"}
+@var select tear "Teardrop Messages" {
+"On":           "https://therealgwjosh.github.io/AddonPackPlus/src/Teardrop-Messages.css",
+"Off":                                                                             "none"}
 @var color mc "Mention color" #7289da
 @var color sp "Spotify Pugin Bar Color" #1EDC62
 @var color idd "Iddle Color" #FAA61A
@@ -21,7 +56,7 @@
 @var color df "Dark  Focused"                                                     #7289DA
 @var color ln "Light  Normal"                                                     #313232
 @var color dn "Dark   Normal"                                                     #66696a
-@var text  tm "Discord  Text"                              "'Discord - Themed By Stylus - AddonPack+ First Release 🎉 - V1.0.1'"
+@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ 🎉 - V1.0.2'"
 @var select url "Watermark Type" {
 "Normal":         "https://therealgwjosh.github.io/Workmark-Plus/src/WordmarkImport.css",
 "Discord Icon":       "https://therealgwjosh.github.io/Workmark-Plus/src/IconImport.css",
@@ -50,89 +85,101 @@
 "Off":                                                                                            "None"}
 @var select bfi "Bonfire Image" {
 "On":                                                 "https://nyri4.github.io/Comfy/assets/bonfire.gif",
-"Custom":                                                                                  "var(--cbfi)",
+"Discord Logo":            "https://therealgwjosh.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
 "Off":                                                                                            "None"}
-@var text ci "Custom Image"                              https://nyri4.github.io/Comfy/assets/bonfire.gif
+
+
 ==/UserStyle== */
 {
-/* Comfy & Main File Imports Do Not Mess With */
-@import url(https://raw.githack.com/NYRI4/Comfy/master/betterdiscord/main.css);
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/ap-main.css);
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/main.css);
-/* Important - Can Be Modified in Quick Settings Do Not Mess With*/
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/userbt.css);
-/* Extra - Can Be Modified in Quick Settings Do Not Mess With*/
-@import url(/*[[cub]]*/);
-@import url(/*[[url]]*/);
-@import url(/*[[cbg]]*/);
-:root {
-/* Mention color */
---mention-color: /*[[mc]]*/;
-
-/* Spotify plugin seek bar */
---spotify-color: /*[[sp]]*/;
-
-/* Status color */
---iddle: /*[[idd]]*/;
---dnd: /*[[dnd]]*/;
---offline: /*[[off]]*/;
-
-/* User button spacing */
---user-buttons-spacing: /*[[ubs]]*/;
---user-buttons-padding: /*[[ubp]]*/;
-
-/* Avatar position */
---avatar-left: /*[[al]]*/;
---avatar-bottom: /*[[ab]]*/;
-
-/* Avatar roundess */
---avatar-radius: /*[[ar]]*/;  
-
-/* Avatar width in modals */
---avatar-width: /*[[aw]]*/;
-
-/* Status roundness */
---status-radius: /*[[str]]*/; 
-
-/* Server roundess */
---server-radius: /*[[svr]]*/;
-
-/* Circles next to role names */
---role-circle: /*[[rc]]*/;
-
-
-/* Colored emoji picker */
---colored-emoji: grayscale(/*[[gs]]*/); /* Change the value to "100%" if you want the basic one */
-
-/* Tooltips */
---tooltips: /*[[tt]]*/; /* Set it to "none" if you don't want it */
-
-/* Discord logo */
---discord-logo: /*[[dll]]*/; /* Set it to "block" if you want it */
-
-/* =====================================DO NOT MESS WITH===================================== */
-/* Custom Var For Stylus */
---cbfi: /*[[ci]]*/ !important;
-/* Change bonfire in modals */
---bonfire: url(/*[[bfi]]*/);
-/* Status color */
---online:  var(--mention-color);
-/* Chat buttons color */
---chat-buttons: var(--mention-color);
-/* Mention color in chat */
---mention-color-bar:  var(--mention-color);
---mention-color-background:  var(--mention-color);
---mention-color-hover:  var(--mention-color)26;
-/* User settings color (Mute, Deafen and settings) */
---user-buttons-color:  var(--mention-color);
-/* Mention color */
---unread-color:  var(--mention-color);
-/* Wordmark+ */
---textmark:      /*[[tm]]*/;
---lightfocused:  /*[[lf]]*/;
---lightnormal:   /*[[ln]]*/;
---darkfocused:   /*[[df]]*/;
---darknormal:    /*[[dn]]*/;
-}
-/* =====================================DO NOT MESS WITH===================================== */
-}
+	/* Comfy & Main File Imports Do Not Mess With */
+	@import url(/*[[comfy]]*/);
+	@import url(/*[[addon]]*/);
+	/* Important - Can Be Modified in Quick Settings Do Not Mess With*/
+	@import url(https://therealgwjosh.github.io/AddonPackPlus/src/userbt.css);
+	/* Extra - Can Be Modified in Quick Settings Do Not Mess With*/
+	@import url(/*[[cub]]*/);
+	@import url(/*[[url]]*/);
+	@import url(/*[[cbg]]*/);
+	@import url(/*[[bcss]]*/);
+	@import url(/*[[nbup]]*/);
+	@import url(/*[[tear]]*/);
+	/* =====================================DO NOT MESS WITH===================================== */
+	.theme-dark {
+		--background-tertiary: /*[[bt]]*/;
+		--background-secondary: /*[[bs]]*/;
+		--background-secondary-alt: /*[[bsa]]*/;
+		--background-primary: /*[[bp]]*/;
+		--background-mobile-primary: /*[[bmp]]*/;
+		--background-mobile-secondary: /*[[bmsec]]*/;
+		--channeltextarea-background: /*[[ctab]]*/;
+		--background-accent: /*[[ba]]*/;
+		--background-message-hover: /*[[bmh]]*/;
+		--background-modifier-hover: /*[[bmodh]]*/;
+		--background-modifier-active: /*[[bma]]*/;
+		--background-modifier-selected: /*[[bmsel]]*/;
+		--deprecated-card-bg: /*[[dcbg]]*/;
+		--background-floating: /*[[bf]]*/;
+		--deprecated-quickswitcher-input-background: /*[[dqib]]*/;
+		--elevation-low: /*[[el]]*/;
+		--scrollbar-auto-thumb: /*[[sathumb]]*/;
+		--scrollbar-auto-track: /*[[satrack]]*/;
+		--scrollbar-thin-thumb: /*[[stt]]*/;
+		--activity-card-background: /*[[acbg]]*/; }
+	/* =====================================DO NOT MESS WITH===================================== */
+	:root {
+		/* Mention color */
+		--mention-color: /*[[mc]]*/;
+		/* Spotify plugin seek bar */
+		--spotify-color: /*[[sp]]*/;
+		/* Status color */
+		--iddle: /*[[idd]]*/;
+		--dnd: /*[[dnd]]*/;
+		--offline: /*[[off]]*/;
+		/* User button spacing */
+		--user-buttons-spacing: /*[[ubs]]*/;
+		--user-buttons-padding: /*[[ubp]]*/;
+		/* Avatar position */
+		--avatar-left: /*[[al]]*/;
+		--avatar-bottom: /*[[ab]]*/;
+		/* Avatar roundess */
+		--avatar-radius: /*[[ar]]*/;
+		/* Avatar width in modals */
+		--avatar-width: /*[[aw]]*/;
+		/* Status roundness */
+		--status-radius: /*[[str]]*/;
+		/* Server roundess */
+		--server-radius: /*[[svr]]*/;
+		/* Circles next to role names */
+		--role-circle: /*[[rc]]*/;
+		/* Colored emoji picker */
+		--colored-emoji: grayscale(/*[[gs]]*/
+		);
+		/* Change the value to "100%" if you want the basic one */
+		/* Tooltips */
+		--tooltips: /*[[tt]]*/;
+		/* Set it to "none" if you don't want it */
+		/* Discord logo */
+		--discord-logo: /*[[dll]]*/;
+		/* Set it to "block"if you want it */
+		/* =====================================DO NOT MESS WITH===================================== */
+		/* Change bonfire in modals */
+		--bonfire: url(/*[[bfi]]*/);
+		/* Status color */
+		--online: var(--mention-color);
+		/* Chat buttons color */
+		--chat-buttons: var(--mention-color);
+		/* Mention color in chat */
+		--mention-color-bar: var(--mention-color);
+		--mention-color-background: var(--mention-color);
+		--mention-color-hover: var(--mention-color)26;
+		/* User settings color (Mute, Deafen and settings) */
+		--user-buttons-color: var(--mention-color);
+		/* Mention color */
+		--unread-color: var(--mention-color);
+		/* Wordmark+ */
+		--textmark: /*[[tm]]*/;
+		--lightfocused: /*[[lf]]*/;
+		--lightnormal: /*[[ln]]*/;
+		--darkfocused: /*[[df]]*/;
+		--darknormal: /*[[dn]]*/; }
+	/* =====================================DO NOT MESS WITH===================================== */ }
