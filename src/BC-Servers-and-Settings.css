@@ -1,3 +1,4 @@
+
 	/* vvvBubblecordvvv */
 	.iconWrapper-2OrFZ1 + .iconWrapper-2OrFZ1[id*="-"] ~ .iconWrapper-2OrFZ1 {
 		z-index: 3001!important; }
@@ -56,11 +57,6 @@
 		border-radius: 8px; }
 	.search-36MZv- {
 		order: -1; }
-	.searchBar-3dMhjb {
-		width: 28px;
-		transition: width 0.6s ease-in-out;
-		color: #fff;
-		background: none; }
 	.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
 		width: 240px;
 		background: var(--background-tertiary); }
@@ -241,20 +237,6 @@
 	.scroller-1Bvpku {
 		padding-bottom: 40px;
 		padding-top: 10px !important; }
-	.theme-dark .root-1gCeng {
-		background: #36393f; }
-	.theme-dark .footer-2gL1pp {
-		background: #2f3136; }
-	.theme-dark .container-UC8Ug1 {
-		background: #292b2f; }
-	.theme-dark .colorHeaderPrimary-26Jzh- {
-		color: #fff; }
-	.theme-dark .colorHeaderSecondary-3Sp3Ft, .theme-dark .colorStandard-2KCXvj, .theme-dark .sampleLink-2NLvZg {
-		color: #b9bbbe; }
-	.theme-dark .close-hZ94c6 {
-		color: #b9bbbe; }
-	.theme-dark .close-hZ94c6:hover {
-		color: #dcddde; }
 	.pageWrapper-1PgVDX {
 		margin-left: 10px;
 		border-radius: 8px; }
@@ -262,8 +244,6 @@
 		border-radius: 8px!important; }
 	.scroller-2TZvBN {
 		contain: unset; }
-	.layers-3iHuyZ > .layer-3QrUeG:nth-child(2) {
-		background: rgba(0, 0, 0, .85); }
 	:not(.chat-settings-container) > .standardSidebarView-3F1I7i {
 		border-radius: 8px;
 		max-width: 75%;
