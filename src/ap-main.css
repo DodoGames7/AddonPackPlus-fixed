@@ -438,21 +438,6 @@ button[aria-label="Open sticker picker"] {
     padding: 5px 16px;
     margin-bottom: 4px;
 }
-/* User buttons */
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 72px;
-  z-index: 1;
-  padding: var(--user-buttons-padding);
-  flex-direction: column;
-  background: linear-gradient(transparent, var(--background-tertiary) 15%);
-}
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
-  color: var(--user-buttons-color);
-  margin: var(--user-buttons-spacing) auto 0 auto;
-}
 .channelTextArea-rNsIhG { margin-bottom: 0; }
 .form-2fGMdU { padding: 0; }
 .inner-MADQqc { padding-top: 14px; }
