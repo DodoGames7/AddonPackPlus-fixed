@@ -373,3 +373,24 @@
   left: 25px;
   margin-left: -25px
 }
+
+
+.container-1r6BKw.themed-ANHk51{
+  position:relative;
+  top:15px;
+  left:10px;
+  width:1204px;
+  background-color:var(--background-tertiary);
+  height:30px; 
+  border-radius:20px;
+}
+.content-yTz4x3{
+  margin-top:-30px;}
+  
+.content-yTz4x3::before,
+.children-19S4PO:after{
+    display:none;
+}
+.members-1998pB{
+  margin-top:50px;
+}
