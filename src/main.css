@@ -436,4 +436,27 @@
 		display: block;
 		background: #000;
 		-webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat; }
+
+/* Resizing the Emoji and making it large */
+.emojiSection-3Fb9ix img {
+    margin: auto;
+    min-width: 80%;
+    height: auto !important;
+}
+/* Resizing the Emoji and making it large End */
+
+/* Text Wrapping */
+.emojiSection-3Fb9ix > .noWrap-3jynv6, .emojiSection-3Fb9ix{
+    flex: wrap;
+    flex-direction: column !important;
+}
+/* Text Wrapping End */
+
+/* Adjusting the text weight and aligning it to center */
+.emojiName-27Bjxw {
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+/* Adjusting the text weight and aligning it to center End */
+
 /*------------------------------------------------------------------------------------------*/
