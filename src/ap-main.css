@@ -1,6 +1,38 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css'); @import url("https://devinkid1.github.io/Pop/base.css"); @import url("https://nyri4.github.io/Discolored/main.css"); @import url("https://landidev.github.io/crearts-discord/Addons/blur-details"); @import url("https://landidev.github.io/crearts-discord/Animated/home-button.css"); @import url("https://landidev.github.io/crearts-discord/Animated/avatar-hover.css"); @import url("https://landidev.github.io/crearts-discord/Animated/icons-hover.css"); @import url("https://landidev.github.io/crearts-discord/Animated/card-hover.css"); @import url("https://landidev.github.io/crearts-discord/Removed/edited.css"); @import url("https://landidev.github.io/crearts-discord/Removed/nitro-home.css"); @import url("https://landidev.github.io/crearts-discord/Removed/chat-header.css"); @import url("https://landidev.github.io/crearts-discord/Removed/gif-nitro-chat.css"); 
+@import url("https://raw.githubusercontent.com/LuckFire/CSS-Snippets/master/SeparateChannelist/separate.css");
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterTooltips/tooltips.css");
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/CustomHighlightColor/highlight.css");
+@import url("https://raw.githubusercontent.com/LuckFire/CSS-Snippets/master/CustomLinkColors/linkcolors.css");
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/TextStatusIndicators/textstatus.css");
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/TextStatusIndicators/textstatus.css");
 
 :root {
+	--text-link: rgb(135, 206, 235) !important;
+	--text-link-hover: rgb(30, 144, 255);
+	--text-link-author: rgb(255, 255, 255);
+	--background-mentioned-side: rgb(114, 137, 218);
+	--background-mentioned: rgba(114, 137, 218, 0.05);
+	--background-mentioned-hover: rgba(114, 137, 218, 0.12);
+	--replying-side: rgb(2, 183, 87);
+	--replying-default: rgba(2, 183, 87, 0.05);
+	--replying-hovered: rgba(2, 183, 87, 0.12);
+	--local-bot-side: rgb(240, 71, 71);
+	--local-bot-default: rgba(240, 71, 71, 0.05);
+	--local-bot-hover: rgba(240, 71, 71, 0.12);
+	--unread-badge: rgba(255, 255, 255, 0.6) !important;
+	--unread-bg: rgba(255, 255, 255, 0.01) !important;
+	--selected-badge: rgb(112, 135, 215) !important;
+	--selected-bg: rgba(112, 135, 215, 0.1) !important;
+	--hovered-bg: rgba(79, 84, 92, 0.25) !important;
+	--bg-rounding: 0px 10px 10px 0px !important;
+	--border-line-type: solid !important;
+	/* For more info on different border line types, visit https://css-tricks.com/almanac/properties/b/border/ */
+	--tooltip-color: rgba(95, 118, 202, 0.5);
+	--tooltip-blur: blur(1.5px);
+	--border-radius: 15px 15px 0 0;
+	--left-radius: 5px;
+	--right-radius: 5px; 
   --background-message-hover: transparent;
   --newmessagesbar: rgba(165, 22, 22, 0.986); /* Change colour here for change */
   /* For UserStatus */
@@ -12,6 +44,7 @@
 	to { transform: rotate(360deg); } }
 .button-14-BFJ[aria-label="User Settings"]:hover svg { animation: spin 2s linear infinite; }
 /*------------------------------------------------------------------------------------------*/
+.avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA:before {background-image: var(--csbg)}
 /* Unread Message Bottom */
 .unreadBottom-1_LF_w > .unreadBar-3t3sYc.unread-1xRYoj {
     border-radius: 4px !important;
