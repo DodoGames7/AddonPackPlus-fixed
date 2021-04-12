@@ -192,30 +192,6 @@
 .channelTextArea-rNsIhG:hover .buttons-3JBrkn {
   opacity: 1.0;
 }
-.rolesList-22qj2L ~ div {
-    display: none;
-}
-.rolesList-22qj2L ~ div {
-    display: none;
-}
-.channelTextArea-rNsIhG { margin-bottom: 0; }
-.form-2fGMdU { padding: 0; }
-.inner-MADQqc { padding-top: 14px; }
-
-.base-gE7OpD { /* typing and slowmode stuff */
-    top: -24px; /* height is 24px */
-    background-color: var(--mention-color);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    padding: 0px 40px 0px 0px;
-
-
-}
-.scrollableContainer-2NUZem {
-    border-radius: 0px;
-    min-height: 53px;
-    border-top-right-radius: 8px;
-}
 /* Green text quoting*/
 .blockquoteContainer-U5TVEi, .blockquoteDivider-2hH8H6, .blockquoteDivider-2hH8H6:before  {
     background-color: transparent;
