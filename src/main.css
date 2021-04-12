@@ -5,21 +5,15 @@
 @import url("https://landidev.github.io/crearts-discord/Animated/home-button.css");
 @import url("https://landidev.github.io/crearts-discord/Animated/avatar-hover.css");
 @import url("https://landidev.github.io/crearts-discord/Animated/icons-hover.css");
-@import url("https://landidev.github.io/crearts-discord/Animated/card-hover.css");
 @import url("https://landidev.github.io/crearts-discord/Removed/edited.css");
 @import url("https://landidev.github.io/crearts-discord/Removed/nitro-home.css");
 @import url("https://landidev.github.io/crearts-discord/Removed/chat-header.css");
-@import url("https://landidev.github.io/crearts-discord/Removed/gif-nitro-chat.css"); 
-@import url("https://raw.githubusercontent.com/LuckFire/CSS-Snippets/master/SeparateChannelist/separate.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterTooltips/tooltips.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/CustomHighlightColor/highlight.css");
 @import url("https://raw.githubusercontent.com/LuckFire/CSS-Snippets/master/CustomLinkColors/linkcolors.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/TextStatusIndicators/textstatus.css");
-@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/TextStatusIndicators/textstatus.css");
 @import url("https://raw.githack.com/LuckFire/theme-source/main/src/css-compile/ThemeSource-Compiled.css");
-@import url("https://raw.githack.com/LuckFire/theme-source/main/old-theme-source.css");
-@import url("https://raw.githack.com/LuckFire/theme-source/main/src/source.css");
 @import url("https://raw.githack.com/LuckFire/theme-source/main/src/css-compile/ThemeSource-Root.css");
 
 :root {
@@ -60,25 +54,6 @@
 .button-14-BFJ[aria-label="User Settings"]:hover svg { animation: spin 2s linear infinite; }
 /*------------------------------------------------------------------------------------------*/
 .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA:before {background-image: var(--csbg)}
-/* Unread Message Bottom */
-.unreadBottom-1_LF_w > .unreadBar-3t3sYc.unread-1xRYoj {
-    border-radius: 4px !important;
-    background: linear-gradient(#0000, var(--mention-color)) !important;
-    animation: 1s infinite alternate ease-out breathing-color--peach !important;
-    transition: 0.8s;
-}
-
-@keyframes breathing-color--peach {
-    from
-    {
-        background-color: var(--mention-color)20 ;
-    }
-    to
-    {
-        background-color: linear-gradient(var(--mention-color), var(--mention-color)12) ;
-        filter:blur(2px);
-    }
-}
 /* Messages */
 /* -- Deleting everything mouhahaha -- */
 [href="/store"],
@@ -169,24 +144,6 @@
   font-size: 0.60rem;
   background-color: var(--newmessagesbar);
 }
-/* Hide Nitro gift button */
-button[aria-label="Send a gift"] {
-  display: none;
-}
-/* Hide GIF picker button */
-button[aria-label="Open GIF picker"] {
-  display: none;
-}
-/* Hide sticker picker button */
-button[aria-label="Open sticker picker"] {
-  display: none;
-}
-
-/* Disable timestamp when hovering a message */
-.message-2qnXI6 > .contents-2mQqc9 > .timestamp-3ZCmNB {
-  display: none;
-}
-
 /* Disable background darken when hovering a message */
 .message-2qnXI6:not(.mentioned-xhSam7):hover {
   background-color: var(--background-primary) !important;
@@ -319,7 +276,7 @@ button[aria-label="Open sticker picker"] {
     background-color: var(--mention-color);
 }
 .attachButton-2WznTc {
-  padding-right:5px
+  padding-right:10px
 }
 
 #app-mount .wrapper-3t9DeA rect[fill="#ffffff"]:not([mask="url(#svg-mask-status-idle)"]):not([mask="url(#svg-mask-status-dnd)"]):not([mask="url(#svg-mask-status-streaming)"]):not([mask="url(#svg-mask-status-idle-mobile)"]):not([mask="url(#svg-mask-status-dnd-mobile)"]) {
@@ -520,8 +477,4 @@ button[aria-label="Open sticker picker"] {
 		display: block;
 		background: #000;
 		-webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat; }
-	/* Mitigate discord desktop/web "crash/freeze" gif */
-	[href$='tornadus.net/orange'] {
-		display: none }
-
 /*------------------------------------------------------------------------------------------*/
