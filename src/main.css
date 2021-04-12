@@ -318,14 +318,6 @@ button[aria-label="Open sticker picker"] {
 .listItem-2P_4kh.mentioned > .pill-31IEus > .item-2hkk8m, .wrapper-21YSNc.mentioned > .pill-31IEus > .item-2hkk8m, .wrapper-21YSNc.mentioned > .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m, .wrapper-21YSNc.mentioned > .pill-31IEus > .item-2hkk8m {
     background-color: var(--mention-color);
 }
-.sidebar-CFHs9e{padding-top: 10px;padding-bottom: 10px;padding-left: 10px;}
-.sidebarRegion-VFTUkN {flex: 0 0 auto;}
-.contentColumn-2hrIYH, .customColumn-Rb6toI {max-width: unset;}
-.platform-osx .sidebar-CFHs9e{padding-top: 30px;}
-.attachWrapper-2TRKBi{
-  order:1;
-  margin-left:13px;
-}
 .attachButton-2WznTc {
   padding-right:5px
 }
