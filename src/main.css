@@ -103,47 +103,6 @@
 #app-mount div.layerContainer-yqaFcK.da-layerContainer div.backdropWithLayer-3_uhz4.da-backdropWithLayer, .da-backdrop, #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .tools-3-3s-N .closeButton-1tv5uR::after, #app-mount .layer-3QrUeG[aria-label*=RTC] .contentRegion-3nDuYy .tools-3-3s-N .closeButton-1tv5uR::after {
     backdrop-filter: blur(2px);
 }
-/* Better Looking New Messages Pill By Leeprky#2063 */
-.unreadPill-2HyYtt {
-  color: rgb(252, 248, 248);
-  background-color:var(--newmessagesbar);
-  border-radius: 5px;
-  width: 50px;
-  height: 14px;
-  margin-bottom: 9px;
-  margin-left: -10px;
-  position: static; /*
-  font-family: "Discord"; */
-  padding-left: 3px;
-}
-.divider-JfaTT5 {
-  border-top: thin solid var(--newmessagesbar);
-  width: 420px;
-  height: 10px;
-  left: 70px;
-}
-/* Day History Pill */
-.unreadPillCap-3_K2q2 {
-  width: 0px;
-  height: 0px;
-}
-.content-1o0f9g {
-  font-size: 0.65rem;
-}
-.theme-dark .content-1o0f9g {
-  color: #e7dddd; /*
-  font-family: "Discord"; */
-  margin-top: 00rem;
-  font-size: 0.60rem;
-  background-color: var(--newmessagesbar);
-}
-.theme-light .content-1o0f9g {
-  color: #1b1a1a; /*
-  font-family: "Discord"; */
-  margin-top: 00rem;
-  font-size: 0.60rem;
-  background-color: var(--newmessagesbar);
-}
 /* Disable background darken when hovering a message */
 .message-2qnXI6:not(.mentioned-xhSam7):hover {
   background-color: var(--background-primary) !important;
@@ -153,7 +112,7 @@
 .mentioned-xhSam7:hover {
   background-color: var(--background-mentioned) !important;
 }
-
+/* Members List Shit */
 .members-1998pB,
 .membersWrap-2h-GB4 {
   border-radius: 0 0 0 0 !important;
