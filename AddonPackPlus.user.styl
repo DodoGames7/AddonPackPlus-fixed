@@ -1,8 +1,8 @@
 @-moz-document domain("discord.com")/* ==UserStyle==
 @name           AddonPack+
 @namespace      github.com/TheRealGWJosh
-@version        1.0.5
-@description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy, Doggybootsy's Bubblecord, and Pavui's Nebula With a Bunch of Snippets from The Powercord Community
+@version        1.0.8
+@description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy, and Pavui's Nebula With a Bunch of Snippets from The Powercord & Open Styles Community
 @author         It'sJustJosh#1156
 @license        CC0-1.0
 @preprocessor   uso
@@ -11,7 +11,7 @@
 @supportURL     https://github.com/TheRealGWJosh/AddonPackPlus/issues  
 @var select font "Custom Font" {
 "Off":                                                                             "none",
-"On":                 "https://therealgwjosh.github.io/AddonPackPlus/src/custom-font.css"}
+"On":          "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css"}
 @var color bt "Background Tertiary" #101320
 @var color bs "Background Secondary" #1e2233
 @var color bsa "Background Secondary Alt" #191f2e
@@ -33,19 +33,20 @@
 @var color stt "Scrollbar Thin Thumb" #141925
 @var color acbg "Activity Card Background" #101320
 @var select comfy "Comfy Theme On/Off" {
-"On":                  "https://therealgwjosh.github.io/AddonPackPlus/src/comfy-vars.css",
+"Normal":              "https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css",
+"Original":         "https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css",
 "Off":                                                                             "none"}
 @var select addon "AddonPack On/Off" {
-"On":                     "https://therealgwjosh.github.io/AddonPackPlus/src/ap-main.css",
+"On":                     "https://therealgwjosh.github.io/AddonPackPlus/src/main.css",
 "Off":                                                                             "none"}
-@var select bcss "Bubblecord Servers & Settings" {
-"On":     "https://therealgwjosh.github.io/AddonPackPlus/src/BC-Servers-and-Settings.css",
+@var select comfyub "Comfy User Buttons On/Off" {
+"On":          "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserButtons.css",
 "Off":                                                                             "none"}
 @var select nbup "Nebula Userpopout" {
-"On":           "https://therealgwjosh.github.io/AddonPackPlus/src/nebulauserpopout.css",
+"On":        "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Nebula-Popout.css",
 "Off":                                                                             "none"}
 @var select tear "Teardrop Messages" {
-"On":           "https://therealgwjosh.github.io/AddonPackPlus/src/teardropmessages.css",
+"On":    "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css",
 "Off":                                                                             "none"}
 @var color mc "Mention color" #7289da
 @var color sp "Spotify Pugin Bar Color" #1EDC62
@@ -59,7 +60,7 @@
 @var color df "Dark  Focused"                                                     #7289DA
 @var color ln "Light  Normal"                                                     #313232
 @var color dn "Dark   Normal"                                                     #66696a
-@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V1.0.3'"
+@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V1.0.8'"
 @var select url "Watermark Type" {
 "Normal":        "https://project-browser.github.io/Workmark-Plus/src/WordmarkImport.css",
 "Discord Icon":     "https://project-browser.github.io/Workmark-Plus//src/IconImport.css",
@@ -84,12 +85,13 @@
 "Badges On":                          "https://therealgwjosh.github.io/CustomUserBadges/source/main.css",
 "Badges Off":                                                                                     "None"}
 @var select cbg "UnFocused Background" {
-"On":                                      "https://therealgwjosh.github.io/AddonPackPlus/src/extra.css",
+"On":                         "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css",
 "Off":                                                                                            "None"}
 @var select bfi "Bonfire Image" {
 "On":                                                 "https://nyri4.github.io/Comfy/assets/bonfire.gif",
 "Discord Logo":          "https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
 "Off":                                                                                            "None"}
+@var text csbg "Status Picker Image"                                      https://i.imgur.com/hCyfVB1.gif
 
 
 ==/UserStyle== */
@@ -97,13 +99,11 @@
 	/* Comfy & Main File Imports Do Not Mess With */
 	@import url(/*[[comfy]]*/);
 	@import url(/*[[addon]]*/);
-	/* Important - Do Not Mess With*/
-	@import url(https://therealgwjosh.github.io/AddonPackPlus/src/userbt.css);
+	@import url(/*[[comfyub]]*/);
 	/* Extra - Can Be Modified in Quick Settings Do Not Mess With*/
 	@import url(/*[[cub]]*/);
 	@import url(/*[[url]]*/);
 	@import url(/*[[cbg]]*/);
-	@import url(/*[[bcss]]*/);
 	@import url(/*[[nbup]]*/);
 	@import url(/*[[tear]]*/);
 	@import url(/*[[font]]*/);
@@ -185,5 +185,7 @@
 		--lightfocused: /*[[lf]]*/;
 		--lightnormal: /*[[ln]]*/;
 		--darkfocused: /*[[df]]*/;
-		--darknormal: /*[[dn]]*/; }
+		--darknormal: /*[[dn]]*/; 
+        /* CUSTOM */
+        --csbg: url('/*[[csbg]]*/');}
 	/* =====================================DO NOT MESS WITH===================================== */ }
