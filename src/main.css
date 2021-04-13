@@ -16,8 +16,8 @@
 @import url("https://raw.githack.com/LuckFire/theme-source/main/src/css-compile/ThemeSource-Compiled.css");
 @import url("https://raw.githack.com/LuckFire/theme-source/main/src/css-compile/ThemeSource-Root.css");
 @import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Member-List.css);
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css);
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Member-List.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css");
 
 :root {
 	--text-link: rgb(135, 206, 235) !important;
