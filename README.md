@@ -3,7 +3,7 @@
 ---
 
 # AddonPack+
-![Preview]()
+![Preview](https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/assets/Previews/Preview-Image.jpg)
 
 ## 📥 Installation
 
