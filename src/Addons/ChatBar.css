@@ -1,0 +1,53 @@
+:root {
+    --chatbox-background: var(--background-secondary-alt);
+    --text-color: rgb(158, 168, 178); 
+    --special-text-background: rgb(85, 85, 85);
+    --icon-color: var(--chat-buttons);
+}
+
+/* Chatboxes Background Color */
+.channelTextArea-rNsIhG > div, /* Chatbox */
+.channelTextAreaUpload-3t7EIx > div, /* Upload Chatbox */
+.channelTextArea-3bF57p > div /* Editing Chatbox */ {
+    background-color: var(--chatbox-background);
+}
+
+
+/* Chatboxes Text Color */
+.placeholder-37qJjk {
+    color: var(--text-color)
+}
+.scrollableContainer-2NUZem > div > .textArea-12jD-V > div > div {
+    color: var(--text-color);
+    caret-color: var(--text-color);
+}
+
+
+/* Special Background (i.e. spoilers, code) */
+.before_inlineCode-1G9rTK, /* Spoilers, inline code */
+.inlineCode-2ngu6Y,
+.after_inlineCode-1KfVgj,
+.spoiler-2Iew8T {
+    background: var(--special-text-background);
+    color: var(--text-color);
+}
+
+.slateTextArea-1Mkdgw > div > .blockquoteDivider-2hH8H6 { /* Quotes */
+    background: rgb(199, 204, 209);
+}
+
+.codeBlockSyntax-2i-tMA,
+.codeBlockText-9TnoxQ { /* Codeblocks */
+    color: var(--text-color);
+}
+
+
+/* Icons */
+path.attachButtonPlus-jWVFah, /* Attach File Button */
+.buttons-3JBrkn > button > div > div > svg > path, /* Gift Button */
+.buttons-3JBrkn > .buttonContainer-28fw2U > button > div > div > svg > path /* Other Buttons */ {
+    fill: var(--icon-color);
+}
+.sprite-2iCowe /* Emoji Picker */ {
+    filter: none !important;
+}
