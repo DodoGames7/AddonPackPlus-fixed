@@ -1,27 +1,25 @@
-![Banner](https://nyri4.github.io/Comfy/assets/banner.png)
+![Banner]()
 
 ---
 
-# Comfy
-![Preview](https://i.ibb.co/5cWJGRP/Preview.png)
+# AddonPack+
+![Preview]()
 
 ## 📥 Installation
 
 ### Powercord & Vizality
 
 ```sh
-git clone https://github.com/NYRI4/Comfy-git-clone
+git clone https://github.com/TheRealGWJosh/AddonPackPlus-git-clone
 ```
 
 ### BetterDiscord
 
-1. Go [here](https://betterdiscord.net/ghdl?id=3550)
+1. Go [here]()
 2. Save the file into your theme folder
 
 ## 🖌️ Customization
-Go into your theme folder > Comfy > support
-- For BetterDiscord : `comfy.theme.css`
-- For Powercord/Vizality : `_custom.css`
+
 
 ## Credits
 
