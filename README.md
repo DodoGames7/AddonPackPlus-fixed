@@ -9,13 +9,16 @@
 
 ### Powercord & Vizality
 
+Not Ready Yet smh
+
 ```sh
 git clone https://github.com/TheRealGWJosh/AddonPackPlus-git-clone
 ```
 
 ### BetterDiscord
 
-1. Go [here]()
+1. [Download Here](https://therealgwjosh.github.io/BetterDiscordStuff/downloader/?theme=AddonPackPlus)
+-  [Website](https://therealgwjosh.github.io/BetterDiscordStuff/)
 2. Save the file into your theme folder
 
 ## 🖌️ Customization
