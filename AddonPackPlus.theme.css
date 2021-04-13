@@ -3,23 +3,26 @@
  * @author It'sJustJosh#1156
  * @version 1.9
  * @description AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy, and Pavui's Nebula With a Bunch of Snippets from The Powercord & Open Styles Community
- * @source https://github.com/TheRealGWJosh/AddonPackPlus
+ * @source https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/AddonPackPlus.theme.css
  * @website https://github.com/TheRealGWJosh/AddonPackPlus
- * @invite WIP
+ * @invite qafdmryEye
 */
+
 /*
 ====================================================================================
                                 Import Source Code
 ====================================================================================
 */
-	@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css");
-	/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css"); */
-	@import url("https://therealgwjosh.github.io/AddonPackPlus/src/main.css");
-	@import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
-	/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css"); */
-	@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Nebula-Popout.css");
-	@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css");
-	/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css"); */
+
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/main.css");
+@import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Nebula-Popout.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css");
+/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css"); */
+/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css"); */
+/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css"); */
+
 /*
 ====================================================================================
                                   Color Variables
@@ -87,8 +90,8 @@
 		/* Set it to "block"if you want it */
 		/* Change bonfire in modals */
 		--bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
-    /* CUSTOM */
-    --csbg: url("https://i.imgur.com/hCyfVB1.gif");
+                /* CUSTOM */
+                --csbg: url("https://i.imgur.com/hCyfVB1.gif");
 		/* =====================================DO NOT MESS WITH===================================== */
 		/* Status color */
 		--online: var(--mention-color);
