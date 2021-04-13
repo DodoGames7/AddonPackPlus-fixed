@@ -13,3 +13,6 @@
   color: var(--user-buttons-color);
   margin: var(--user-buttons-spacing) auto 0 auto;
 }
+/* Remove Bonfire Icon In Chat */
+.form-2fGMdU .wrapper-39oAo3:after {display: none;}
+.form-2fGMdU {padding-left: 16px !important;}
