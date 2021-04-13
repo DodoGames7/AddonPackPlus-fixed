@@ -1,7 +1,7 @@
 @-moz-document domain("discord.com")/* ==UserStyle==
 @name           AddonPack+
 @namespace      github.com/TheRealGWJosh
-@version        1.0.8
+@version        1.0.9
 @description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy, and Pavui's Nebula With a Bunch of Snippets from The Powercord & Open Styles Community
 @author         It'sJustJosh#1156
 @license        CC0-1.0
@@ -39,9 +39,6 @@
 @var select addon "AddonPack On/Off" {
 "On":                     "https://therealgwjosh.github.io/AddonPackPlus/src/main.css",
 "Off":                                                                             "none"}
-@var select comfyub "Comfy User Buttons On/Off" {
-"On":          "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserButtons.css",
-"Off":                                                                             "none"}
 @var select nbup "Nebula Userpopout" {
 "On":        "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Nebula-Popout.css",
 "Off":                                                                             "none"}
@@ -60,10 +57,9 @@
 @var color df "Dark  Focused"                                                     #7289DA
 @var color ln "Light  Normal"                                                     #313232
 @var color dn "Dark   Normal"                                                     #66696a
-@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V1.0.8'"
+@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V1.0.9'"
 @var select url "Watermark Type" {
 "Normal":        "https://project-browser.github.io/Workmark-Plus/src/WordmarkImport.css",
-"Discord Icon":     "https://project-browser.github.io/Workmark-Plus//src/IconImport.css",
 "Custom Wordmark": "https://project-browser.github.io/Workmark-Plus/src/CustomImport.css",
 "None":                                                                           "None"}
 @var select gs "Emoji Grayscale" {
@@ -99,7 +95,6 @@
 	/* Comfy & Main File Imports Do Not Mess With */
 	@import url(/*[[comfy]]*/);
 	@import url(/*[[addon]]*/);
-	@import url(/*[[comfyub]]*/);
 	/* Extra - Can Be Modified in Quick Settings Do Not Mess With*/
 	@import url(/*[[cub]]*/);
 	@import url(/*[[url]]*/);
