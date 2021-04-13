@@ -7,9 +7,12 @@
 
 ## 📥 Installation
 
-### Powercord & Vizality
+### Stylus WIP
 
-Not Ready Yet smh
+
+### Powercord & Vizality
+## idk how this works
+>  so send issues to the server or fill one out on the repo
 
 ```sh
 git clone https://github.com/TheRealGWJosh/AddonPackPlus-git-clone
