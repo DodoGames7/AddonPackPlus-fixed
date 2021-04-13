@@ -1,7 +1,8 @@
-@import url(https://raw.githack.com/NYRI4/Comfy/master/betterdiscord/main.css);
-@import url(https://nyri4.github.io/Comfy/betterdiscord/main.css);
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserButtons.css);
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/Light-Mode-Warning.css);
+@import url("https://raw.githack.com/NYRI4/Comfy/master/betterdiscord/main.css");
+@import url("https://nyri4.github.io/Comfy/betterdiscord/main.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserButtons.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Light-Mode-Warning.css");
+
 	.theme-light {
 		/* If You Change Dark Themes Color Leave This Alone */
 		/* I don't support light theme it's just for the "Create a server" popup */
