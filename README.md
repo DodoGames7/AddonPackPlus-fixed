@@ -14,6 +14,7 @@ Not Ready Yet smh
 ```sh
 git clone https://github.com/TheRealGWJosh/AddonPackPlus-git-clone
 ```
+or [Download The Zip](https://api.github.com/repos/TheRealGWJosh/AddonPackPlus/zipball/main)
 
 ### BetterDiscord
 
@@ -23,7 +24,8 @@ git clone https://github.com/TheRealGWJosh/AddonPackPlus-git-clone
 
 ## 🖌️ Customization
 
+Not Ready
 
 ## Credits
 
-Thanks a lot to Snapperito, Harley, Tropical and others peeps that I forgot for the help !
+Not Ready
