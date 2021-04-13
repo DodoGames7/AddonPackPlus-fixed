@@ -409,3 +409,18 @@
 .muteText-gutGxh::before {
   content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
 }
+
+.container-1giJp5 {padding-bottom:0}
+.horizontal-1ae9ci>.flex-1xMQg5:last-child {margin-left:73px}
+.button-1YfofB.buttonColor-7qQbGO,
+.button-1YfofB .buttonColor-7qQbGO:hover {
+    position: absolute;
+    top: 10px;
+    color: var(--interactive-normal);
+    background: transparent;
+    padding: 5px;
+}
+.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(1), 
+.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(1):hover {right: 70px}
+.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(2), 
+.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(2):hover {right: 110px}
