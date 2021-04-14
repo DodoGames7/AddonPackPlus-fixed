@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/assets/Previews/Addon-Banner.jpg)
+![Banner](https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/assets/Previews/Addon-Banner.png)
 
 ---
 
