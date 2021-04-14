@@ -3,10 +3,14 @@
 ```css
 @import url(https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/main.css);
 :root{
---csbg: ;
+--csbg: url('YOUR-IMAGE-HERE');
 }
 ```
 > Comfy Import
 ```css
 @import url(https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/);
+:root{
+--status-background: url('YOUR-IMAGE-HERE');
+--csbg:var(--status-background)!important;
+}
 ```
