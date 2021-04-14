@@ -1,0 +1,18 @@
+:root {
+   --call-bg: var(--csbg); /* Change this to what image you'd like */
+   --bg-blur: blur(3px); /* Change this for how much blur you want on the image */
+}
+
+.minimum-28Z35l .root-217Brm,
+.video--KPXCT .root-217Brm {
+   background: var(--call-bg) center/100% no-repeat;
+}
+.minimum-28Z35l .root-217Brm::before,
+.video--KPXCT .root-217Brm::before {
+   content: "";
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background: rgb(0, 0, 0, 0.65);
+   backdrop-filter: var(--bg-blur);
+}
