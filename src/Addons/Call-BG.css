@@ -1,5 +1,5 @@
 :root {
-   --call-bg: var(--csbg); /* Change this to what image you'd like */
+   --call-bg: var(--csbg)!important; /* Change this to what image you'd like */
    --bg-blur: blur(3px); /* Change this for how much blur you want on the image */
 }
 
