@@ -51,7 +51,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: var(--user-background,--csbg);
+    background-image: var(--user-background);
 }
 .userInfo-2zN2z8 { overflow: visible;}
 .userInfo-2zN2z8, .actions-1SQwjn { position: relative; z-index: 1;}
