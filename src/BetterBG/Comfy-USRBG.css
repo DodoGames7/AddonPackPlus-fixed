@@ -9,7 +9,7 @@
   --usrbg-modal-x-offset: -180px; /*Distance from the avatar container to the edge of the modal (x)*/
   --usrbg-modal-y-offset: -65px; /*Distance from the avatar container to the edge of the modal (y)*/
   --usrbg-modal-width: 800px; /*Maximum width of modal*/
-  --usrbg-modal-height: 600px; /*Maximum height of modal*/
+  --usrbg-modal-height: 490px; /*Maximum height of modal*/
 }
 #app-mount .header-QKLPzZ .wrapper-3t9DeA[style*="width: 80px;"] {
   margin-right: 0 !important;
