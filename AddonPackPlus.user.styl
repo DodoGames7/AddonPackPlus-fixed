@@ -1,13 +1,13 @@
 @-moz-document domain("discord.com")/* ==UserStyle==
 @name           AddonPack+
 @namespace      github.com/TheRealGWJosh
-@version        1.0.9
-@description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy, and Pavui's Nebula With a Bunch of Snippets from The Powercord & Open Styles Community
+@version        2.0.0
+@description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
 @author         It'sJustJosh#1156
 @license        CC0-1.0
 @preprocessor   uso
 @homepageURL    https://github.com/TheRealGWJosh/AddonPackPlus
-@updateURL      https://github.com/TheRealGWJosh/AddonPackPlus/raw/main/AddonPackPlus.user.styl
+@updateURL      https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/AddonPackPlus.user.styl
 @supportURL     https://github.com/TheRealGWJosh/AddonPackPlus/issues  
 @var select font "Custom Font" {
 "Off":                                                                             "none",
@@ -39,9 +39,6 @@
 @var select addon "AddonPack On/Off" {
 "On":                     "https://therealgwjosh.github.io/AddonPackPlus/src/main.css",
 "Off":                                                                             "none"}
-@var select nbup "Nebula Userpopout" {
-"On":        "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Nebula-Popout.css",
-"Off":                                                                             "none"}
 @var select tear "Teardrop Messages" {
 "On":    "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css",
 "Off":                                                                             "none"}
@@ -57,7 +54,7 @@
 @var color df "Dark  Focused"                                                     #7289DA
 @var color ln "Light  Normal"                                                     #313232
 @var color dn "Dark   Normal"                                                     #66696a
-@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V1.0.9'"
+@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V2.0.0'"
 @var select url "Watermark Type" {
 "Normal":        "https://project-browser.github.io/Workmark-Plus/src/WordmarkImport.css",
 "Custom Wordmark": "https://project-browser.github.io/Workmark-Plus/src/CustomImport.css",
@@ -87,23 +84,19 @@
 "On":                                                 "https://nyri4.github.io/Comfy/assets/bonfire.gif",
 "Discord Logo":          "https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
 "Off":                                                                                            "None"}
-@var text csbg "Status Picker Image"                                      https://i.imgur.com/hCyfVB1.gif
-
-
+@var text csbg "Status Picker Image"                                      https://i.imgur.com/yHP6sgj.png
 ==/UserStyle== */
-{
-	/* Comfy & Main File Imports Do Not Mess With */
-	@import url(/*[[comfy]]*/);
-	@import url(/*[[addon]]*/);
-	/* Extra - Can Be Modified in Quick Settings Do Not Mess With*/
-	@import url(/*[[cub]]*/);
-	@import url(/*[[url]]*/);
-	@import url(/*[[cbg]]*/);
-	@import url(/*[[nbup]]*/);
+{	/* Comfy & Main File Imports Do Not Mess With */
+    	@import url(/*[[comfy]]*/);
+    	@import url(/*[[addon]]*/);
+    	/* Extra - Can Be Modified in Quick Settings Do Not Mess With*/
+    	@import url(/*[[cub]]*/);
+    	@import url(/*[[url]]*/);
+    	@import url(/*[[cbg]]*/);
 	@import url(/*[[tear]]*/);
 	@import url(/*[[font]]*/);
 	/* =====================================DO NOT MESS WITH===================================== */
-	.theme-dark {
+     	.theme-dark {
 		--background-tertiary: /*[[bt]]*/;
 		--background-secondary: /*[[bs]]*/;
 		--background-secondary-alt: /*[[bsa]]*/;
@@ -124,8 +117,8 @@
 		--scrollbar-auto-track: /*[[satrack]]*/;
 		--scrollbar-thin-thumb: /*[[stt]]*/;
 		--activity-card-background: /*[[acbg]]*/; }
-	/* =====================================DO NOT MESS WITH===================================== */
-	:root {
+     	/* =====================================DO NOT MESS WITH===================================== */
+    	:root {
 		/* Mention color */
 		--mention-color: /*[[mc]]*/;
 		/* Spotify plugin seek bar */
@@ -181,6 +174,7 @@
 		--lightnormal: /*[[ln]]*/;
 		--darkfocused: /*[[df]]*/;
 		--darknormal: /*[[dn]]*/; 
-        /* CUSTOM */
-        --csbg: url('/*[[csbg]]*/');}
-	/* =====================================DO NOT MESS WITH===================================== */ }
+                /* CUSTOM IMAGES & SHIT */
+                --status-background: url('/*[[csbg]]*/');
+                --csbg: var(--status-background)!important;}}
+     	/* =====================================V CUSTOM CSS HERE V===================================== */ 
