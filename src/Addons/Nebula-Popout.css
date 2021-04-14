@@ -207,3 +207,10 @@
 	.userPopout-3XzG_A .pointerEvents-2zdfdO {
 		x: 10;
 		y: 85; }
+
+.userPopout-3XzG_A .date-YN6TCS {
+    margin-top: 0px !important;
+    width: 70%;
+    left: 45px;
+    overflow: scroll !important;
+}
