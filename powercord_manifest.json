@@ -3,7 +3,7 @@
     "description": "AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy, and Pavui's Nebula With a Bunch of Snippets from The Powercord & Open Styles Community",
     "version": "1.9",
     "author": "It'sJustJosh#1156",
-    "theme": "AddonPackPlus.theme.css",
+    "theme": "AddonPackPlus.css",
     "consent": "false",
     "license": "CCO 1.0"
 }
