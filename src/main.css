@@ -1,28 +1,19 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css');
 @import url("https://devinkid1.github.io/Pop/base.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://landidev.github.io/crearts-discord/Addons/blur-details.css");
 @import url("https://landidev.github.io/crearts-discord/Animated/home-button.css");
 @import url("https://landidev.github.io/crearts-discord/Animated/avatar-hover.css");
 @import url("https://landidev.github.io/crearts-discord/Animated/icons-hover.css");
-@import url("https://landidev.github.io/crearts-discord/Removed/edited.css");
-@import url("https://landidev.github.io/crearts-discord/Removed/nitro-home.css");
-@import url("https://landidev.github.io/crearts-discord/Removed/chat-header.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterTooltips/tooltips.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/CustomHighlightColor/highlight.css");
-@import url("https://raw.githubusercontent.com/LuckFire/CSS-Snippets/master/CustomLinkColors/linkcolors.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/TextStatusIndicators/textstatus.css");
-@import url("https://raw.githack.com/leeprky/FullyThemedDiscord/main/source.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Member-List.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
 
 :root {
-	--text-link: rgb(135, 206, 235) !important;
-	--text-link-hover: rgb(30, 144, 255);
-	--text-link-author: rgb(255, 255, 255);
 	--background-mentioned-side: rgb(114, 137, 218);
 	--background-mentioned: rgba(114, 137, 218, 0.05);
 	--background-mentioned-hover: rgba(114, 137, 218, 0.12);
@@ -56,7 +47,7 @@
 	to { transform: rotate(360deg); } }
 .button-14-BFJ[aria-label="User Settings"]:hover svg { animation: spin 2s linear infinite; }
 /*------------------------------------------------------------------------------------------*/
-.avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA:before {background-image: var(--csbg)}
+/* .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA:before {background-image: var(--csbg)} */
 /* Add transparency & blur to the loading screen */
 .container-16j22k {
     background-color: rgba(0,0,0,0.8);
@@ -410,17 +401,3 @@
   content: "‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎  ‎‏‏‎ ‎‏‏‏‏‎ ‎‎‏‏‎ ‎";
 }
 
-.container-1giJp5 {padding-bottom:0}
-.horizontal-1ae9ci>.flex-1xMQg5:last-child {margin-left:73px}
-.button-1YfofB.buttonColor-7qQbGO,
-.button-1YfofB .buttonColor-7qQbGO:hover {
-    position: absolute;
-    top: 10px;
-    color: var(--interactive-normal);
-    background: transparent;
-    padding: 5px;
-}
-.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(1), 
-.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(1):hover {right: 70px}
-.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(2), 
-.actionButtons-14eAc_ .button-1YfofB.buttonColor-7qQbGO:nth-child(2):hover {right: 110px}
