@@ -27,7 +27,7 @@
   height: 30px;
   top: 50%;
   left: 50%;
-  background: var(--background-tertiary); /* Inner Color */
+  background: var(--background-secondary) !important; /* Inner Color */
 
   transform: translate(-50%, -50%); /* Text Color */
 
@@ -44,7 +44,7 @@
 }
 
 .theme-light .app-2rEoOp .layer-3QrUeG:first-of-type {
-  background-color: var(--background-secondary) !important; /* Color Behind Warning */}
+  background-color: var(--background-tertiary) !important; /* Color Behind Warning */}
 
 .theme-light .preview-2nSL_2.cardPrimaryOutline-29Ujqw+.marginTop40-i-78cZ .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:first-of-type,
   .theme-light .preview-2nSL_2.cardPrimaryOutline-29Ujqw+.marginTop40-i-78cZ .radioGroup-1GBvlr .item-26Dhrx:first-of-type {
