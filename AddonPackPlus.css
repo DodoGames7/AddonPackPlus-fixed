@@ -7,7 +7,6 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/main.css");
 @import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Nebula-Popout.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css");
 /* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css"); */
 /* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css"); */
@@ -80,8 +79,9 @@
 		/* Set it to "block"if you want it */
 		/* Change bonfire in modals */
 		--bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
-    /* CUSTOM */
-    --csbg: url("https://i.imgur.com/hCyfVB1.gif");
+                /* CUSTOM */
+                --status-background: url('https://i.imgur.com/yHP6sgj.png');
+                --csbg:var(--status-background)!important;
 		/* =====================================DO NOT MESS WITH===================================== */
 		/* Status color */
 		--online: var(--mention-color);
