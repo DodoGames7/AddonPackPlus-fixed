@@ -1,7 +1,7 @@
 @-moz-document domain("discord.com")/* ==UserStyle==
 @name           AddonPack+
 @namespace      github.com/TheRealGWJosh
-@version        2.0.0
+@version        2.0.1
 @description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
 @author         It'sJustJosh#1156
 @license        CC0-1.0
@@ -54,7 +54,7 @@
 @var color df "Dark  Focused"                                                     #7289DA
 @var color ln "Light  Normal"                                                     #313232
 @var color dn "Dark   Normal"                                                     #66696a
-@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V2.0.0'"
+@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V2.0.1 Hotfix'"
 @var select url "Watermark Type" {
 "Normal":        "https://project-browser.github.io/Workmark-Plus/src/WordmarkImport.css",
 "Custom Wordmark": "https://project-browser.github.io/Workmark-Plus/src/CustomImport.css",
@@ -84,6 +84,9 @@
 "On":                                                 "https://nyri4.github.io/Comfy/assets/bonfire.gif",
 "Discord Logo":          "https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
 "Off":                                                                                            "None"}
+@var select side "Sidebar Auto Hover" {
+"On":                             "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css",
+"Off":                                                                                            "None"}
 @var text csbg "Status Picker Image"                                      https://i.imgur.com/yHP6sgj.png
 ==/UserStyle== */
 {	/* Comfy & Main File Imports Do Not Mess With */
@@ -95,6 +98,7 @@
     	@import url(/*[[cbg]]*/);
 	@import url(/*[[tear]]*/);
 	@import url(/*[[font]]*/);
+        @import url(/*[[side]]*/);
 	/* =====================================DO NOT MESS WITH===================================== */
      	.theme-dark {
 		--background-tertiary: /*[[bt]]*/;
