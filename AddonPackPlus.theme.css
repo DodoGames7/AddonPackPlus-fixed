@@ -57,8 +57,6 @@
 	:root {
 		/* Mention color */
 		--mention-color: #7289da;
-		/* Spotify plugin seek bar */
-		--spotify-color: #1EDC62;
 		/* Status color */
 		--iddle: #FAA61A;
 		--dnd: #F04747;
@@ -77,35 +75,12 @@
 		--status-radius: 3px;
 		/* Server roundess */
 		--server-radius: 8px;
-		/* Circles next to role names */
-		--role-circle: 5px;
 		/* Colored emoji picker */
-		--colored-emoji: grayscale(0%);
-		/* Change the value to "100%" if you want the basic one */
-		/* Tooltips */
-		--tooltips: block;
-		/* Set it to "none" if you don't want it */
-		/* Discord logo */
-		--discord-logo: block;
-		/* Set it to "block"if you want it */
+		--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
 		/* Change bonfire in modals */
 		--bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
                 /* CUSTOM */
-                --status-background: url('https://i.imgur.com/yHP6sgj.png');
-                --csbg:var(--status-background)!important;
-		/* =====================================DO NOT MESS WITH===================================== */
-		/* Status color */
-		--online: var(--mention-color);
-		/* Chat buttons color */
-		--chat-buttons: var(--mention-color);
-		/* Mention color in chat */
-		--mention-color-bar: var(--mention-color);
-		--mention-color-background: var(--mention-color);
-		--mention-color-hover: var(--mention-color)26;
-		/* User settings color (Mute, Deafen and settings) */
-		--user-buttons-color: var(--mention-color);
-		/* Mention color */
-		--unread-color: var(--mention-color); }
+                --status-background: url('https://i.imgur.com/yHP6sgj.png'); }
 /*
 ====================================================================================
                 Please place any Theme-specific Custom CSS Below here
