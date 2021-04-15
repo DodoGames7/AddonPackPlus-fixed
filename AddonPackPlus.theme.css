@@ -28,49 +28,48 @@
                                   Color Variables
 ====================================================================================
 */ 
-	.theme-dark {
-		--background-tertiary: #101320;
-		--background-secondary: #1e2233;
-		--background-secondary-alt: #191f2e;
-		--background-primary: #23283d;
-		--background-mobile-primary: #23283d;
-		--background-mobile-secondary: #1e2233;
-		--channeltextarea-background: #191f2e;
-		--background-accent: #6E85D3;
-		--background-modifier-hover: #1c2030;
-		--background-modifier-active: #1a1e2e;
-		--background-modifier-selected: #191f2e;
-		--deprecated-card-bg: #12141f63;
-		--background-floating: #101320;
-		--deprecated-quickswitcher-input-background: #101320;
-		--scrollbar-auto-thumb: #121722;
-		--scrollbar-auto-track: #191f2e;
-		--scrollbar-thin-thumb: #141925;
-		--activity-card-background: #101320; }
+.theme-dark {
+--background-tertiary: #101320;
+--background-secondary: #1e2233;
+--background-secondary-alt: #191f2e;
+--background-primary: #23283d;
+--background-mobile-primary: #23283d;
+--background-mobile-secondary: #1e2233;
+--channeltextarea-background: #191f2e;
+--background-accent: #6E85D3;
+--background-modifier-hover: #1c2030;
+--background-modifier-active: #1a1e2e;
+--background-modifier-selected: #191f2e;
+--deprecated-card-bg: #12141f63;
+--background-floating: #101320;
+--deprecated-quickswitcher-input-background: #101320;
+--scrollbar-auto-thumb: #121722;
+--scrollbar-auto-track: #191f2e;
+--scrollbar-thin-thumb: #141925;
+--activity-card-background: #101320; }
 /*
 ====================================================================================
                                   Theme Variables
 ====================================================================================
 */ 
-	:root {
-		/* Mention color */
-		--mention-color: #7289da;
-		/* Status color */
-		--iddle: #FAA61A;
-		--dnd: #F04747;
-		--offline: #747F8D;
-		/* Avatar roundess */
-		--avatar-radius: 5px;
-		/* Status roundness */
-		--status-radius: 3px;
-		/* Server roundess */
-		--server-radius: 8px;
-		/* Colored emoji picker */
-		--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
-		/* Change bonfire in modals */
-		--bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
-                /* CUSTOM */
-                --status-background: url('https://i.imgur.com/yHP6sgj.png'); }
+:root { /* Mention color */
+--mention-color: #7289da;
+/* Status color */
+--iddle: #FAA61A;
+--dnd: #F04747;
+--offline: #747F8D;
+/* Avatar roundess */
+--avatar-radius: 5px;
+/* Status roundness */
+--status-radius: 3px;
+/* Server roundess */
+--server-radius: 8px;
+/* Colored emoji picker */
+--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
+/* Change bonfire in modals */
+--bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
+/* CUSTOM */
+--status-background: url('https://i.imgur.com/yHP6sgj.png'); }
 /*
 ====================================================================================
                 Please place any Theme-specific Custom CSS Below here
