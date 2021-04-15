@@ -1,8 +1,12 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/main.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Light-Mode-Warning.css");
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/Comfy-USRBG.css);
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/Comfy-USRBG.css");
 
 :root{ 
+/* Circles next to role names */
+--role-circle: 5px;
+/* CUSTOM */
+--csbg:var(--status-background)!important; 
 /* Vizality - Spotify seek bar color */
 --spotify-in-discord__spotify-brand-color: #1ed760;
 /* Powercord - Spotify seek bar color */
