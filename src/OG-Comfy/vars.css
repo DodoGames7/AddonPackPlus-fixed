@@ -50,6 +50,9 @@
 --text-normal: #8e9297;
 }
 
+/* LOL DARK THEME */
+.theme-dark {--background-message-hover: transparent; --elevation-low: none;}
+
 /* Vizality - Better Spotify seek bar */
 .spotify-in-discord-player-seek-bar { position: absolute; bottom: 0px;width: 240px;height: 52px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #00000021);mask-image: linear-gradient(0.25turn, #0009, #0003);}.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp, .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .hoverRoll-YK53gQ { z-index: 3; }.spotify-in-discord-player-controls > .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}.spotify-in-discord-player-seek-bar-cursor { display: none;} .spotify-in-discord-player .container-3baos1 { margin-bottom: 0;}
 
