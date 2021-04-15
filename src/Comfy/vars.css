@@ -5,6 +5,10 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/Comfy-USRBG.css");
 
 :root{ 
+/* Circles next to role names */
+--role-circle: 5px;
+/* CUSTOM */
+--csbg:var(--status-background)!important; 
 /* Spotify plugin seek bar */
 --spotify-color: #1EDC6;
 /* Tooltips */
