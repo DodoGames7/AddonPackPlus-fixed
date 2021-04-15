@@ -61,16 +61,8 @@
 		--iddle: #FAA61A;
 		--dnd: #F04747;
 		--offline: #747F8D;
-		/* User button spacing */
-		--user-buttons-spacing: 1px;
-		--user-buttons-padding: 30px 0 60px 0 ;
-		/* Avatar position */
-		--avatar-left: 17.5px;
-		--avatar-bottom: 12.0px;
 		/* Avatar roundess */
 		--avatar-radius: 5px;
-		/* Avatar width in modals */
-		--avatar-width: 130px;
 		/* Status roundness */
 		--status-radius: 3px;
 		/* Server roundess */
