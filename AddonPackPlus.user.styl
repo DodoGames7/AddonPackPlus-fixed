@@ -20,14 +20,12 @@
 @var color bmsec "Background Mobile Secondary" #1e2233
 @var color ctab "Channeltextarea Background" #191f2e
 @var color ba "Background Accent" #6E85D3
-@var color bmh "Background Message Hover" transparent
 @var color bmodh "Background Modifier Hover" #1c2030
 @var color bma "Background Modifier Active" #1a1e2e
 @var color bmsel "Background Modifier Selected" #191f2e
 @var color dcbg "Deprecated Card BG" #12141f63
 @var color bf "Background Floating" #101320
 @var color dqib "Deprecated Quickswitcher Input Background" #101320
-@var text el "Elevation Low" none
 @var color sathumb "Scrollbar Auto Thumb" #121722
 @var color satrack "Scrollbar Auto Track" #191f2e
 @var color stt "Scrollbar Thin Thumb" #141925
@@ -43,18 +41,16 @@
 "On":    "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css",
 "Off":                                                                             "none"}
 @var color mc "Mention color" #7289da
-@var color sp "Spotify Pugin Bar Color" #1EDC62
 @var color idd "Iddle Color" #FAA61A
 @var color dnd "DND Color" #F04747
 @var color off "Offline Color" #747F8D
 @var text str "Status Radius" 3px
 @var text svr "Server Radius" 8px
-@var text rc "Role Circle" 5px
 @var color lf "Light Focused"                                                     #5568a6
 @var color df "Dark  Focused"                                                     #7289DA
 @var color ln "Light  Normal"                                                     #313232
 @var color dn "Dark   Normal"                                                     #66696a
-@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V2.0.1 Hotfix'"
+@var text  tm "Discord  Text" "'Discord - Themed By Stylus - AddonPack+ V2.0.3'"
 @var select url "Watermark Type" {
 "Normal":        "https://project-browser.github.io/Workmark-Plus/src/WordmarkImport.css",
 "Custom Wordmark": "https://project-browser.github.io/Workmark-Plus/src/CustomImport.css",
@@ -62,18 +58,7 @@
 @var select gs "Emoji Grayscale" {
 "Off":                                                                              "0%",
 "On":                                                                             "100%"}
-@var select dll "Loading Logo" {
-"On":                                                                            "block",
-"Off":                                                                            "none"}
-@var select tt "Tooltips" {
-"Off":                                                                            "none",
-"On":                                                                            "block"}
-@var text ubs "User Button Spacing" 1px
-@var text ubp "User Button Padding" 30px 0 60px 0
-@var text al "Avatar Left"  17.5px
-@var text ab "Avatar Bottom"  12.0px
 @var text ar "Avatar Radius"  5px
-@var text aw "Avatar Width"  130px
 @var select cub "CustomUserBadges" {
 "Badges On":                          "https://therealgwjosh.github.io/CustomUserBadges/source/main.css",
 "Badges Off":                                                                                     "None"}
@@ -89,96 +74,58 @@
 "Off":                                                                                            "None"}
 @var text csbg "Status Picker Image"                                      https://i.imgur.com/yHP6sgj.png
 ==/UserStyle== */
-{	/* Comfy & Main File Imports Do Not Mess With */
-    	@import url(/*[[comfy]]*/);
-    	@import url(/*[[addon]]*/);
-    	/* Extra - Can Be Modified in Quick Settings Do Not Mess With*/
-    	@import url(/*[[cub]]*/);
-    	@import url(/*[[url]]*/);
-    	@import url(/*[[cbg]]*/);
-	@import url(/*[[tear]]*/);
-	@import url(/*[[font]]*/);
-        @import url(/*[[side]]*/);
-	/* =====================================DO NOT MESS WITH===================================== */
-     	.theme-dark {
-		--background-tertiary: /*[[bt]]*/;
-		--background-secondary: /*[[bs]]*/;
-		--background-secondary-alt: /*[[bsa]]*/;
-		--background-primary: /*[[bp]]*/;
-		--background-mobile-primary: /*[[bmp]]*/;
-		--background-mobile-secondary: /*[[bmsec]]*/;
-		--channeltextarea-background: /*[[ctab]]*/;
-		--background-accent: /*[[ba]]*/;
-		--background-message-hover: /*[[bmh]]*/;
-		--background-modifier-hover: /*[[bmodh]]*/;
-		--background-modifier-active: /*[[bma]]*/;
-		--background-modifier-selected: /*[[bmsel]]*/;
-		--deprecated-card-bg: /*[[dcbg]]*/;
-		--background-floating: /*[[bf]]*/;
-		--deprecated-quickswitcher-input-background: /*[[dqib]]*/;
-		--elevation-low: /*[[el]]*/;
-		--scrollbar-auto-thumb: /*[[sathumb]]*/;
-		--scrollbar-auto-track: /*[[satrack]]*/;
-		--scrollbar-thin-thumb: /*[[stt]]*/;
-		--activity-card-background: /*[[acbg]]*/; }
-     	/* =====================================DO NOT MESS WITH===================================== */
-    	:root {
-		/* Mention color */
-		--mention-color: /*[[mc]]*/;
-		/* Spotify plugin seek bar */
-		--spotify-color: /*[[sp]]*/;
-		/* Status color */
-		--iddle: /*[[idd]]*/;
-		--dnd: /*[[dnd]]*/;
-		--offline: /*[[off]]*/;
-		/* User button spacing */
-		--user-buttons-spacing: /*[[ubs]]*/;
-		--user-buttons-padding: /*[[ubp]]*/;
-		/* Avatar position */
-		--avatar-left: /*[[al]]*/;
-		--avatar-bottom: /*[[ab]]*/;
-		/* Avatar roundess */
-		--avatar-radius: /*[[ar]]*/;
-		/* Avatar width in modals */
-		--avatar-width: /*[[aw]]*/;
-		/* Status roundness */
-		--status-radius: /*[[str]]*/;
-		/* Server roundess */
-		--server-radius: /*[[svr]]*/;
-		/* Circles next to role names */
-		--role-circle: /*[[rc]]*/;
-		/* Colored emoji picker */
-		--colored-emoji: grayscale(/*[[gs]]*/
-		);
-		/* Change the value to "100%" if you want the basic one */
-		/* Tooltips */
-		--tooltips: /*[[tt]]*/;
-		/* Set it to "none" if you don't want it */
-		/* Discord logo */
-		--discord-logo: /*[[dll]]*/;
-		/* Set it to "block"if you want it */
-		/* =====================================DO NOT MESS WITH===================================== */
-		/* Change bonfire in modals */
-		--bonfire: url(/*[[bfi]]*/);
-		/* Status color */
-		--online: var(--mention-color);
-		/* Chat buttons color */
-		--chat-buttons: var(--mention-color);
-		/* Mention color in chat */
-		--mention-color-bar: var(--mention-color);
-		--mention-color-background: var(--mention-color);
-		--mention-color-hover: var(--mention-color)26;
-		/* User settings color (Mute, Deafen and settings) */
-		--user-buttons-color: var(--mention-color);
-		/* Mention color */
-		--unread-color: var(--mention-color);
-		/* Wordmark+ */
-		--textmark: /*[[tm]]*/;
-		--lightfocused: /*[[lf]]*/;
-		--lightnormal: /*[[ln]]*/;
-		--darkfocused: /*[[df]]*/;
-		--darknormal: /*[[dn]]*/; 
-                /* CUSTOM IMAGES & SHIT */
-                --status-background: url('/*[[csbg]]*/');
-                --csbg: var(--status-background)!important;}}
-     	/* =====================================V CUSTOM CSS HERE V===================================== */ 
+{@import url(/*[[comfy]]*/);
+@import url(/*[[addon]]*/);
+@import url(/*[[tear]]*/);
+@import url(/*[[font]]*/);
+@import url(/*[[side]]*/);
+@import url(/*[[cub]]*/);
+@import url(/*[[url]]*/);
+@import url(/*[[cbg]]*/);
+
+/* =====================================DO NOT MESS WITH===================================== */
+.theme-dark {
+--background-tertiary: /*[[bt]]*/;
+--background-secondary: /*[[bs]]*/;
+--background-secondary-alt: /*[[bsa]]*/;
+--background-primary: /*[[bp]]*/;
+--background-mobile-primary: /*[[bmp]]*/;
+--background-mobile-secondary: /*[[bmsec]]*/;
+--channeltextarea-background: /*[[ctab]]*/;
+--background-accent: /*[[ba]]*/;
+--background-modifier-hover: /*[[bmodh]]*/;
+--background-modifier-active: /*[[bma]]*/;
+--background-modifier-selected: /*[[bmsel]]*/;
+--deprecated-card-bg: /*[[dcbg]]*/;
+--background-floating: /*[[bf]]*/;
+--deprecated-quickswitcher-input-background: /*[[dqib]]*/;
+--scrollbar-auto-thumb: /*[[sathumb]]*/;
+--scrollbar-auto-track: /*[[satrack]]*/;
+--scrollbar-thin-thumb: /*[[stt]]*/;
+--activity-card-background: /*[[acbg]]*/; }
+:root {/* Mention color */
+--mention-color: /*[[mc]]*/;
+/* Status color */
+--iddle: /*[[idd]]*/;
+--dnd: /*[[dnd]]*/;
+--offline: /*[[off]]*/;
+/* Avatar roundess */
+--avatar-radius: /*[[ar]]*/;
+/* Status roundness */
+--status-radius: /*[[str]]*/;
+/* Server roundess */
+--server-radius: /*[[svr]]*/;
+/* Colored emoji picker */
+--colored-emoji: grayscale(/*[[gs]]*/);
+/* Change the value to "100%" if you want the basic one */
+/* CUSTOM IMAGES & SHIT */
+--status-background: url('/*[[csbg]]*/');
+/* Change bonfire in modals */
+--bonfire: url(/*[[bfi]]*/);
+/* Wordmark+ */
+--textmark: /*[[tm]]*/;
+--lightfocused: /*[[lf]]*/;
+--lightnormal: /*[[ln]]*/;
+--darkfocused: /*[[df]]*/;
+--darknormal: /*[[dn]]*/; }}
+/* =====================================V CUSTOM CSS HERE V===================================== */ 
