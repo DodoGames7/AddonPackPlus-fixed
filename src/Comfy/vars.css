@@ -2,8 +2,13 @@
 @import url("https://nyri4.github.io/Comfy/betterdiscord/main.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserButtons.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Light-Mode-Warning.css");
-@import url(https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/Comfy-USRBG.css);
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/Comfy-USRBG.css");
 :root{
+	        /* Tooltips */
+		--tooltips: block;
+		/* Set it to "none" if you don't want it */
+		/* Discord logo */
+		--discord-logo: block;
 		/* Status color */
 		--online: var(--mention-color);
 		/* Chat buttons color */
