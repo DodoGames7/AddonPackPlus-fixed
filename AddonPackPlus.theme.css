@@ -13,17 +13,15 @@
                                 Import Source Code
 ====================================================================================
 */
-
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/main.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css");
 @import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");
-/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css"); */
-/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css"); */
-/* @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css"); */
-
-/*
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");/*
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css");
+*//*
 ====================================================================================
                                   Color Variables
 ====================================================================================
