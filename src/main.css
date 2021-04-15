@@ -13,6 +13,8 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/main.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+@import url('https://therealgwjosh.github.io/CustomUserBadges/source/main.css');
 
 :root {
 	--background-mentioned-side: rgb(114, 137, 218);
