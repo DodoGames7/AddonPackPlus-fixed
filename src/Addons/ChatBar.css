@@ -2,7 +2,7 @@
     --chatbox-background: var(--background-secondary-alt);
     --text-color: rgb(158, 168, 178); 
     --special-text-background: rgb(85, 85, 85);
-    --icon-color: var(--chat-buttons);
+    --icon-color: var(--chat-buttons)!important;
 }
 
 /* Chatboxes Background Color */
