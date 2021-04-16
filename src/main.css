@@ -13,10 +13,16 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/main.css");
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url('https://therealgwjosh.github.io/CustomUserBadges/source/main.css');
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
 
 :root {
+	--font:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;	
+	--settingsicons:			1;
+	--linkcolor: 				var(--accentcolor2);			
+	--mentioncolor: 			var(--accentcolor);	
+	--backgroundaccent: 	                var(--accentcolor);    		
 	--background-mentioned-side: rgb(114, 137, 218);
 	--background-mentioned: rgba(114, 137, 218, 0.05);
 	--background-mentioned-hover: rgba(114, 137, 218, 0.12);
