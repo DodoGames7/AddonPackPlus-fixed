@@ -15,7 +15,7 @@
 > so send issues to the server or fill one out on the repo
 
 ```sh
-git clone https://github.com/TheRealGWJosh/AddonPackPlus-git-clone
+git clone https://github.com/TheRealGWJosh/AddonPackPlus.git
 ```
 or [Download The Zip](https://api.github.com/repos/TheRealGWJosh/AddonPackPlus/zipball/main)
 
