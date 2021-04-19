@@ -1,56 +1,46 @@
 /**
  * @name AddonPack+
  * @author It'sJustJosh#1156
- * @version 2.3
- * @description AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy, and Pavui's Nebula With a Bunch of Snippets from The Powercord & Open Styles Community
- * @source https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/AddonPackPlus.theme.css
- * @website https://github.com/TheRealGWJosh/AddonPackPlus
+ * @version 2.5
+ * @description AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
+ * @source https://therealgwjosh.github.io/AddonPackPlus/AddonPackPlus.theme.css
+ * @website https://therealgwjosh.github.io/BetterDiscordStuff/
  * @invite qafdmryEye
 */
 
 /*
-====================================================================================
+====================================================================================================
                                 Import Source Code
-====================================================================================
-*/
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/main.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css");
-@import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
+====================================================================================================
+*/ @import url("https://therealgwjosh.github.io/AddonPackPlus/src/wtf.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");/*
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css");/*
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css");
-*//*
-====================================================================================
+*/ /*
+====================================================================================================
                                   Color Variables
-====================================================================================
-*/ 
-.theme-dark {
---background-tertiary: #101320;
---background-secondary: #1e2233;
---background-secondary-alt: #191f2e;
---background-primary: #23283d;
---background-mobile-primary: #23283d;
---background-mobile-secondary: #1e2233;
---channeltextarea-background: #191f2e;
---background-accent: #6E85D3;
---background-modifier-hover: #1c2030;
---background-modifier-active: #1a1e2e;
---background-modifier-selected: #191f2e;
---deprecated-card-bg: #12141f63;
---background-floating: #101320;
---deprecated-quickswitcher-input-background: #101320;
---scrollbar-auto-thumb: #121722;
---scrollbar-auto-track: #191f2e;
---scrollbar-thin-thumb: #141925;
---activity-card-background: #101320; }
-/*
-====================================================================================
+====================================================================================================
+*/ :root { /* Discord Recolor By DevilBro */
+--accentcolor: 				114, 137, 218;		
+--accentcolor2: 			255,115,250;			
+--textbrightest: 			255,255,255;		
+--textbrighter: 			222,222,222;		
+--textbright: 				185,185,185;			
+--textdark: 				140,140,140;		
+--textdarker: 				115,115,115;		
+--textdarkest: 				80,80,80;			
+--backgroundprimary: 		29, 38, 59;			
+--backgroundsecondary: 		30, 34, 51;		
+--backgroundsecondaryalt: 	35, 40, 61;			
+--backgroundtertiary: 		25, 31, 46;		
+--backgroundfloating: 	    92, 103, 132; } /*
+====================================================================================================
                                   Theme Variables
-====================================================================================
-*/ 
-:root { /* Mention color */
+====================================================================================================
+*/ :root { /* Mention color */
 --mention-color: #7289da;
 /* Status color */
 --iddle: #FAA61A;
@@ -67,9 +57,8 @@
 /* Change bonfire in modals */
 --bonfire: url("https://nyri4.github.io/Comfy/assets/bonfire.gif");
 /* CUSTOM */
---status-background: url('https://i.imgur.com/yHP6sgj.png'); }
-/*
-====================================================================================
+--status-background: url('https://i.imgur.com/bLjT5yC.png'); /*https://i.imgur.com/yHP6sgj.png*/ } /*
+=====================================================================================================
                 Please place any Theme-specific Custom CSS Below here
-====================================================================================
-*/ 
+=====================================================================================================
+*/
