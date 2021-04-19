@@ -15,7 +15,8 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/main.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url('https://therealgwjosh.github.io/CustomUserBadges/source/main.css');
-/* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css"); */
+@import url("https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css");
+
 
 :root {
 	--font:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;	
@@ -49,8 +50,16 @@
         --newmessagesbar: rgba(165, 22, 22, 0.986); /* Change colour here for change */
         /* For UserStatus */
        --streaming:rgb(89, 54, 149);
+       --csbg: var(--status-background)!important;
+       --chat-buttons: var(--mention-color)!important;
 }
 /*------------------------------------------------------------------------------------------*/
+.theme-dark, .theme-light {
+    --modal-border-radius: 15px 15px 15px 15px; /* Popout Modal Borders */
+    --floating-border-radius: 15px 15px 15px 15px; /* Floating Tabs Borders */
+    --expanded-border-radius: 15px 15px 15px 15px; /* Big Modals Borders */
+    --hover-border-radius: 10px 10px 10px 10px; /* Used for like everything not just hovering */
+}
 /* setting button spinning */
 @keyframes spin { from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); } }
