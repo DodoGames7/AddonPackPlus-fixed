@@ -1,7 +1,7 @@
 @-moz-document domain("discord.com")/* ==UserStyle==
 @name           AddonPack+
 @namespace      github.com/TheRealGWJosh
-@version        2.0.5
+@version        2.0.6
 @description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
 @author         It'sJustJosh#1156
 @license        CC0-1.0
@@ -9,6 +9,7 @@
 @homepageURL    https://github.com/TheRealGWJosh/AddonPackPlus
 @updateURL      https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/AddonPackPlus.user.styl
 @supportURL     https://github.com/TheRealGWJosh/AddonPackPlus/issues  
+@var text fgh "Friend Grid Height" 120px
 @var color mc "Mention color" #7289da
 @var text ac1 "Accent Color" 114, 137, 218
 @var text ac2 "Accent Color 2" 255,115,250
@@ -59,7 +60,7 @@
 @var color df "Dark  Focused"                                                                     #7289DA
 @var color ln "Light  Normal"                                                                     #313232
 @var color dn "Dark   Normal"                                                                     #66696a
-@var text  tm "Discord  Text"                          "'Discord - Themed By Stylus - AddonPack+ V2.0.5'"
+@var text  tm "Discord  Text"                   "'Discord - Themed By Stylus - AddonPack+ V2.0.6 Hotfix'"
 @var select bfi "Bonfire Image" {
 "On":                                                 "https://nyri4.github.io/Comfy/assets/bonfire.gif",
 "Discord Logo":          "https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
@@ -96,7 +97,9 @@
 ====================================================================================================
                                   Theme Variables
 ====================================================================================================
-*/ :root { /* Mention color */
+*/ :root { /* Friend Grid Var */
+--friendblockheight: /*[[fgh]]*/; 
+/* Mention color */
 --mention-color: /*[[mc]]*/;
 /* Status color */
 --iddle: /*[[idd]]*/;
