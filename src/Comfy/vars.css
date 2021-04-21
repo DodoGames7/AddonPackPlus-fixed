@@ -53,6 +53,34 @@
 /* LOL I'm TOO LAZY TO HOST MY OWN VERSION */
 .theme-dark {--background-message-hover: transparent; --elevation-low: none;}
 
+.list-2luk8a.listDefault-3ir5aS {
+    padding: 0 0 0 6px;
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.content-1Wq3SX .username-3KYl0N {margin-left: 4px}
+.content-1Wq3SX .botTag-2WPJ74 {display: none}
+.content-1Wq3SX .avatar-3tNQiO,
+.audienceVoiceUserIconContainer-29oflP {margin-right: 0; margin-left: 0}
+.audienceVoiceUserText-BhGzmw {
+    font-size: 12px; 
+    margin-left: 4px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.live-vBWnV6 {
+    font-size: 0;
+    border-radius: 50%;
+    min-height: 8px;
+    min-width: 8px;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+
 /* No scrollbars */
 ::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
 
