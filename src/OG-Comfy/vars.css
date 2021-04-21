@@ -53,6 +53,34 @@
 /* LOL DARK THEME */
 .theme-dark {--background-message-hover: transparent; --elevation-low: none;}
 
+.list-2luk8a.listDefault-3ir5aS {
+    padding: 0 0 0 6px;
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.content-1Wq3SX .username-3KYl0N {margin-left: 4px}
+.content-1Wq3SX .botTag-2WPJ74 {display: none}
+.content-1Wq3SX .avatar-3tNQiO,
+.audienceVoiceUserIconContainer-29oflP {margin-right: 0; margin-left: 0}
+.audienceVoiceUserText-BhGzmw {
+    font-size: 12px; 
+    margin-left: 4px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.live-vBWnV6 {
+    font-size: 0;
+    border-radius: 50%;
+    min-height: 8px;
+    min-width: 8px;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+
 /* Vizality - Better Spotify seek bar */
 .spotify-in-discord-player-seek-bar { position: absolute; bottom: 0px;width: 240px;height: 52px !important;-webkit-mask-image: linear-gradient(0.25turn, #0009, #00000021);mask-image: linear-gradient(0.25turn, #0009, #0003);}.spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .avatarWrapper-2yR4wp, .spotify-in-discord-player > .container-3baos1 > .spotify-in-discord-player-inner > .hoverRoll-YK53gQ { z-index: 3; }.spotify-in-discord-player-controls > .button-14-BFJ.enabled-2cQ-u7:hover { background-color: transparent;}.spotify-in-discord-player-seek-bar-cursor { display: none;} .spotify-in-discord-player .container-3baos1 { margin-bottom: 0;}
 
