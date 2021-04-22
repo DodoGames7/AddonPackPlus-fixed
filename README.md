@@ -13,12 +13,7 @@
 ### Powercord & Vizality
 > idk how this works
 > so send issues to the server or fill one out on the repo
-
-```sh
-git clone https://github.com/TheRealGWJosh/AddonPackPlus.git
-```
-or [Download The Zip](https://api.github.com/repos/TheRealGWJosh/AddonPackPlus/zipball/main)
-
+> Moved Over Here! [New Repo](https://github.com/Powercord-Vizality/AddonPackPlus)
 ### BetterDiscord
 
 1. [Download Here](https://therealgwjosh.github.io/BetterDiscordStuff/downloader/?theme=AddonPackPlus)
