@@ -1,9 +1,9 @@
 /* User buttons */
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 72px;
+  bottom: var(--user-buttons-bottom);
+  left: var(--user-buttons-left);
+  width: var(--user-buttons-width);
   z-index: 1;
   padding: var(--user-buttons-padding);
   flex-direction: column;
