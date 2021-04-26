@@ -1,14 +1,17 @@
 /* ==UserStyle==
 @name           AddonPack+
 @namespace      github.com/TheRealGWJosh
-@version        2.0.7
+@version        2.0.8
 @description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
 @author         It'sJustJosh#1156
 @license        CC0-1.0
 @preprocessor   uso
 @homepageURL    https://github.com/TheRealGWJosh/AddonPackPlus
-@updateURL      https://raw.githubusercontent.com/TheRealGWJosh/AddonPackPlus/main/AddonPackPlus.user.styl
+@updateURL      https://userstyles.world/api/style/38.user.css
 @supportURL     https://github.com/TheRealGWJosh/AddonPackPlus/issues  
+@var text ubb "User Buttons Bottom" 0px
+@var text ubw "User Buttons Width" 72px
+@var text ubl "User Buttons Left" 0px
 @var text fgh "Friend Grid Height" 120px
 @var color mc "Mention color" #7289da
 @var text ac1 "Accent Color" 114, 137, 218
@@ -61,7 +64,7 @@
 @var color df "Dark  Focused"                                                                     #7289DA
 @var color ln "Light  Normal"                                                                     #313232
 @var color dn "Dark   Normal"                                                                     #66696a
-@var text  tm "Discord  Text"                   "'Discord - Themed By Stylus - AddonPack+ V2.0.7 Hotfix'"
+@var text  tm "Discord  Text"                   "'Discord - Themed By Stylus - AddonPack+ V2.0.8 Hotfix'"
 @var select bfi "Bonfire Image" {
 "On":                                                 "https://nyri4.github.io/Comfy/assets/bonfire.gif",
 "Discord Logo":          "https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
@@ -98,7 +101,11 @@
 ====================================================================================================
                                   Theme Variables
 ====================================================================================================
-*/ :root { /* Friend Grid Var */
+*/ :root {
+--user-buttons-width: /*[[ubw]]*/;
+--user-buttons-left: /*[[ubl]]*/;
+--user-buttons-bottom: /*[[ubb]]*/;
+/* Friend Grid Var */
 --friendblockheight: /*[[fgh]]*/; 
 /* Mention color */
 --mention-color: /*[[mc]]*/;
@@ -123,8 +130,10 @@
 --lightfocused: /*[[lf]]*/;
 --lightnormal: /*[[ln]]*/;
 --darkfocused: /*[[df]]*/;
---darknormal: /*[[dn]]*/; } /*
+--darknormal: /*[[dn]]*/; 
+/* CUSTOM */
+--csbg:var(--status-background)!important;} /*
 =====================================================================================================
                 Please place any Theme-specific Custom CSS Below here
 =====================================================================================================
-*/ }
+*/}
