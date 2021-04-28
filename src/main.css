@@ -223,3 +223,8 @@
   min-width: calc(100% - 60px);
   max-width: calc(100% - 60px);
 }
+
+.assetWrapper-3GNt0z { 
+    max-height: 10vh;
+    max-width: 10vh;
+}
