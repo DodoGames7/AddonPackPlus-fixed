@@ -1,9 +1,6 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css');
 @import url("https://devinkid1.github.io/Pop/base.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://landidev.github.io/crearts-discord/Animated/home-button.css");
-@import url("https://landidev.github.io/crearts-discord/Animated/avatar-hover.css");
-@import url("https://landidev.github.io/crearts-discord/Animated/icons-hover.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterTooltips/tooltips.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/CustomHighlightColor/highlight.css");
@@ -12,8 +9,6 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/BetterBG/main.css");
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url('https://therealgwjosh.github.io/CustomUserBadges/source/main.css');
 @import url("https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css");
 @import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
@@ -21,6 +16,8 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Status.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ColoredConnections.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Comfer-Popouts.css");
+
 
 :root {
 	--font:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;	
