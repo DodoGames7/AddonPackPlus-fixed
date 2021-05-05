@@ -228,3 +228,17 @@
     max-height: 10vh;
     max-width: 10vh;
 }
+
+.container-16j22k {background: transparent; pointer-events: none}
+.container-16j22k>div {display: none}
+.container-16j22k::before {
+    content: "Lodaing Discord, Maybe Check Your Internet You Might Be Offline?";
+    display: block;
+    bottom: 24px; right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500
+}
