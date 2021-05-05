@@ -1,138 +1,151 @@
 /* ==UserStyle==
-@name           AddonPack+
-@namespace      github.com/TheRealGWJosh
-@version        2.0.8
-@description    AddonPack+ Is a Discord Theme Incuding NYRI4's Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
-@author         It'sJustJosh#1156
-@license        CC0-1.0
-@preprocessor   uso
-@homepageURL    https://github.com/TheRealGWJosh/AddonPackPlus
-@updateURL      https://userstyles.world/api/style/38.user.css
-@supportURL     https://github.com/TheRealGWJosh/AddonPackPlus/issues  
-@var text ubb "User Buttons Bottom" 0px
-@var text ubw "User Buttons Width" 72px
-@var text ubl "User Buttons Left" 0px
-@var text fgh "Friend Grid Height" 120px
-@var color mc "Mention color" #7289da
-@var text ac1 "Accent Color" 114, 137, 218
-@var text ac2 "Accent Color 2" 255,115,250
-@var text tbst "Text Brightest" 255,255,255
-@var text tber "Text Brighter" 222,222,222
-@var text tbht "Text Bright" 185,185,185
-@var text tdark "Text Dark" 140,140,140
-@var text tder "Text Darker" 115,115,115
-@var text tdst "Text Darkest" 80,80,80
-@var text bp "Background Primary" 29, 38, 59
-@var text bs "Background Secondary" 30, 34, 51
-@var text bsa "Background Secondary Alt" 35, 40, 61
-@var text bt "Background Tertiary" 25, 31, 46
-@var text bf "Background Floating" 92, 103, 132
+
+--= Theme Stuff =--
+@name                                                                                 AddonPack+
+@version                                                                                   2.0.9
+@description   Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
+@license                                                                                 CC0-1.0
+@homepageURL                                      https://github.com/TheRealGWJosh/AddonPackPlus
+@updateURL                                        https://userstyles.world/api/style/38.user.css
+@supportURL                                https://github.com/TheRealGWJosh/AddonPackPlus/issues 
+
+--= Stylus Stuff =--
+@preprocessor                                                                                uso
+
+--= Author Stuff =--
+@author                                                 It'sJustJosh#2812 - (362628885361197056)
+@namespace                                                   github.com/openstyles/TheRealGWJosh
+
+--=Imports/Selects=--
 @var select comfy "Comfy Theme On/Off" {
-"Normal":              "https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css",
-"Original":         "https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css",
-"Off":                                                                             "none"}
+"Normal":                    "https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css",
+"Original":               "https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css",
+"Off":                                                                                   "none"}
 @var select addon "AddonPack On/Off" {
-"On":                         "https://therealgwjosh.github.io/AddonPackPlus/src/wtf.css",
-"No Discord Recolor":        "https://therealgwjosh.github.io/AddonPackPlus/src/bruh.css",
-"Off":                                                                             "none"}
+"On":                               "https://therealgwjosh.github.io/AddonPackPlus/src/wtf.css",
+"No Discord Recolor":              "https://therealgwjosh.github.io/AddonPackPlus/src/bruh.css",
+"Off":                                                                                   "none"}
 @var select tear "Teardrop Messages" {
-"On":    "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css",
-"Off":                                                                             "none"}
+"On":          "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css",
+"Off":                                                                                   "none"}
 @var select font "Custom Font" {
-"Off":                                                                             "none",
-"On":          "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css"}
+"Off":                                                                                   "none",
+"On":                "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Custom-Font.css"}
 @var select url "Watermark Type" {
-"Normal":        "https://project-browser.github.io/Workmark-Plus/src/WordmarkImport.css",
-"Custom Wordmark": "https://project-browser.github.io/Workmark-Plus/src/CustomImport.css",
-"None":                                                                           "None"}
+"Normal":              "https://project-browser.github.io/Workmark-Plus/src/WordmarkImport.css",
+"Custom Wordmark":       "https://project-browser.github.io/Workmark-Plus/src/CustomImport.css",
+"None":                                                                                  "None"}
 @var select cbg "UnFocused Background" {
-"On":                         "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css",
-"Off":                                                                                            "None"}
-@var select side "Sidebar Auto Hover" {
-"On":                             "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css",
-"Off":                                                                                            "None"}
-@var text str "Status Radius"                                                                         3px
-@var text svr "Server Radius"                                                                         8px
-@var select gs "Emoji Grayscale" {
-"Off":                                                                                              "0%",
-"On":                                                                                             "100%"}
-@var text ar "Avatar Radius"  5px
-@var color idd "Iddle Color" #FAA61A
-@var color dnd "DND Color" #F04747
-@var color off "Offline Color"                                                                    #747F8D
-@var color lf "Light Focused"                                                                     #5568a6
-@var color df "Dark  Focused"                                                                     #7289DA
-@var color ln "Light  Normal"                                                                     #313232
-@var color dn "Dark   Normal"                                                                     #66696a
-@var text  tm "Discord  Text"                   "'Discord - Themed By Stylus - AddonPack+ V2.0.8 Hotfix'"
+"On":                "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UnfocusedBG.css",
+"Off":                                                                                   "None"}
 @var select bfi "Bonfire Image" {
-"On":                                                 "https://nyri4.github.io/Comfy/assets/bonfire.gif",
-"Discord Logo":          "https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
-"Off":                                                                                            "None"}
-@var text csbg "Status Picker Image"                                      https://i.imgur.com/yHP6sgj.png
+"On":                                        "https://nyri4.github.io/Comfy/assets/bonfire.gif",
+"Discord Logo": "https://project-browser.github.io/Workmark-Plus/assets/Discord-Logo-Color.svg",
+"Off":                                                                                   "None"}
+@var select gs "Emoji Grayscale" {
+"Off":                                                                                     "0%",
+"On":                                                                                    "100%"}
+@var text  tm "Discord  Text"                 "'Discord - Themed By Stylus - AddonPack+ V2.0.9'"
+@var text csbg "Status Picker Image"                             https://i.imgur.com/yHP6sgj.png
+
+--=Text Vars=--
+@var text ubb "User Buttons Bottom"                                                          0px
+@var text ubw "User Buttons Width"                                                          72px
+@var text ubl "User Buttons Left"                                                            0px
+@var text fgh "Friend Grid Height"                                                         120px
+@var text ac1 "Accent Color"                                                       114, 137, 218
+@var text ac2 "Accent Color 2"                                                       255,115,250
+@var text tbst "Text Brightest"                                                      255,255,255
+@var text tber "Text Brighter"                                                       222,222,222
+@var text tbht "Text Bright"                                                         185,185,185
+@var text tdark "Text Dark"                                                          140,140,140
+@var text tder "Text Darker"                                                         115,115,115
+@var text tdst "Text Darkest"                                                           80,80,80
+@var text bp "Background Primary"                                                     29, 38, 59
+@var text bs "Background Secondary"                                                   30, 34, 51
+@var text bsa "Background Secondary Alt"                                              35, 40, 61
+@var text bt "Background Tertiary"                                                    25, 31, 46
+@var text bf "Background Floating"                                                  92, 103, 132
+@var text str "Status Radius"                                                                3px
+@var text svr "Server Radius"                                                                8px
+@var text ar "Avatar Radius"                                                                 5px
+
+--=Color Vars=--
+@var color mc "Mention color"                                                            #7289da
+@var color idd "Iddle Color"                                                             #FAA61A
+@var color dnd "DND Color"                                                               #F04747
+@var color off "Offline Color"                                                           #747F8D
+@var color lf "Light Focused"                                                            #5568a6
+@var color df "Dark  Focused"                                                            #7289DA
+@var color ln "Light  Normal"                                                            #313232
+@var color dn "Dark   Normal"                                                            #66696a
+
 ==/UserStyle== */ @-moz-document domain("discord.com"){ /*
 ===================================================================================================
                                 Import Source Code
 ===================================================================================================
-*/ @import url(/*[[comfy]]*/);
-@import url(/*[[addon]]*/);
-@import url(/*[[tear]]*/);
-@import url(/*[[font]]*/);
-@import url(/*[[side]]*/);
-@import url(/*[[url]]*/);
-@import url(/*[[cbg]]*/); /*
+*/
+@import                url(/*[[comfy]]*/);
+@import                url(/*[[addon]]*/);
+@import                 url(/*[[tear]]*/);
+@import                 url(/*[[font]]*/);
+@import                  url(/*[[url]]*/);
+@import                  url(/*[[cbg]]*/);
+/*
 ===================================================================================================
                                   Color Variables 
 ===================================================================================================
-*/ :root { /* Discord Recolor By DevilBro */
---accentcolor: 				/*[[ac1]]*/;		
---accentcolor2: 			/*[[ac2]]*/;		
---textbrightest: 			/*[[tbst]]*/;		
---textbrighter: 			/*[[tber]]*/;		
---textbright: 				/*[[tbht]]*/;			
---textdark: 				/*[[tdark]]*/;		
---textdarker: 				/*[[tder]]*/;		
---textdarkest: 				/*[[tdst]]*/;			
---backgroundprimary: 		/*[[bp]]*/;			
---backgroundsecondary: 		/*[[bs]]*/;		
---backgroundsecondaryalt: 	/*[[bsa]]*/;			
---backgroundtertiary: 		/*[[bt]]*/;		
---backgroundfloating: 	    /*[[bf]]*/;	} /*
+*/:root{
+/*  --=Discord Recolor By DevilBro=--  */
+--accentcolor: 		          /*[[ac1]]*/;		
+--accentcolor2:               /*[[ac2]]*/;		
+--textbrightest: 	         /*[[tbst]]*/;		
+--textbrighter: 	         /*[[tber]]*/;		
+--textbright:        	     /*[[tbht]]*/;			
+--textdark: 	            /*[[tdark]]*/;		
+--textdarker: 				 /*[[tder]]*/;		
+--textdarkest: 				 /*[[tdst]]*/;			
+--backgroundprimary: 		   /*[[bp]]*/;			
+--backgroundsecondary: 		   /*[[bs]]*/;		
+--backgroundsecondaryalt: 	  /*[[bsa]]*/;			
+--backgroundtertiary: 		   /*[[bt]]*/;		
+--backgroundfloating: 	       /*[[bf]]*/;	
+}/*
 ====================================================================================================
                                   Theme Variables
 ====================================================================================================
-*/ :root {
---user-buttons-width: /*[[ubw]]*/;
---user-buttons-left: /*[[ubl]]*/;
---user-buttons-bottom: /*[[ubb]]*/;
+*/:root{
+/* User Buttons */
+--user-buttons-width:         /*[[ubw]]*/;
+--user-buttons-left:          /*[[ubl]]*/;
+--user-buttons-bottom:        /*[[ubb]]*/;
 /* Friend Grid Var */
---friendblockheight: /*[[fgh]]*/; 
+--friendblockheight:          /*[[fgh]]*/; 
 /* Mention color */
---mention-color: /*[[mc]]*/;
+--mention-color:               /*[[mc]]*/;
 /* Status color */
---iddle: /*[[idd]]*/;
---dnd: /*[[dnd]]*/;
---offline: /*[[off]]*/;
+--iddle:                      /*[[idd]]*/;
+--dnd:                        /*[[dnd]]*/;
+--offline:                    /*[[off]]*/;
 /* Avatar roundess */
---avatar-radius: /*[[ar]]*/;
+--avatar-radius:               /*[[ar]]*/;
 /* Status roundness */
---status-radius: /*[[str]]*/;
+--status-radius:              /*[[str]]*/;
 /* Server roundess */
---server-radius: /*[[svr]]*/;
+--server-radius:              /*[[svr]]*/;
 /* Colored emoji picker */
---colored-emoji: grayscale(/*[[gs]]*/);
-/* CUSTOM */
-/* Change bonfire in modals */
---bonfire: url("/*[[bfi]]*/");
---status-background: url("/*[[csbg]]*/");
+--colored-emoji:    grayscale(/*[[gs]]*/);
+/* Custom */
+--bonfire:             url("/*[[bfi]]*/");
+--status-background:  url("/*[[csbg]]*/");
+--csbg:var(--status-background)!important;
 /* Wordmark+ */
---textmark: /*[[tm]]*/;
---lightfocused: /*[[lf]]*/;
---lightnormal: /*[[ln]]*/;
---darkfocused: /*[[df]]*/;
---darknormal: /*[[dn]]*/; 
-/* CUSTOM */
---csbg:var(--status-background)!important;} /*
+--textmark:                    /*[[tm]]*/;
+--lightfocused:                /*[[lf]]*/;
+--lightnormal:                 /*[[ln]]*/;
+--darkfocused:                 /*[[df]]*/;
+--darknormal:                  /*[[dn]]*/; 
+}/*
 =====================================================================================================
                 Please place any Theme-specific Custom CSS Below here
 =====================================================================================================
