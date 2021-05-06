@@ -68,94 +68,38 @@ display: block;
 background: var(--mention-color);
 -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat; }
 /*------------------------------------------------------------------------------------------*/
-/* Mobile Jump To Top Message & Mobile Mark as Read Buttons */
-.container-3auIfb{
-   width:20px;
-   height:20px;
-}
-.jumpToPresentBar-G1R9s6{
-    visibility: hidden;
-    bottom:15px;
-}
-.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d{
-    visibility: visible;
-    padding:11px;
-    background-color: var(--background-tertiary);
-    border-radius: 50%;
-}
-.jumpToPresentBar-G1R9s6{
-    visibility: hidden;
-    bottom:15px;
-}
-.barButtonIcon-3t4V3d{
-    visibility: visible;
-    padding:11px;
-    background-color: var(--background-tertiary);
-    border-radius: 50%;
-}
-/* Removes a stupid Container */
-.form-2fGMdU:before{
-  display: none;
-}
-/* Applies blur, fixes message cut off */
-.form-2fGMdU {
-    background: #0000 !important; 
-    padding-top:1vh;
-    backdrop-filter: blur(10px);
-}
-.scroller-2LSbBU {
-  margin-bottom: -567px;
-    padding-bottom: 557px;
-}
-.listItem-2P_4kh.mentioned > .pill-31IEus > .item-2hkk8m, .wrapper-21YSNc.mentioned > .pill-31IEus > .item-2hkk8m, .wrapper-21YSNc.mentioned > .listItem-2P_4kh > .pill-31IEus > .item-2hkk8m, .wrapper-21YSNc.mentioned > .pill-31IEus > .item-2hkk8m {
-    background-color: var(--mention-color);
-}
-.attachButton-2WznTc {
-  padding-right:10px
-}
-.buttons-3JBrkn {
-  opacity: 0;
-  transition: opacity 0.1s;
-}
-
-.channelTextArea-rNsIhG:hover .buttons-3JBrkn {
-  opacity: 1.0;
-}
-/*------------------------------------------------------------------------------------------*/
 /* Resizing the Emoji and making it large */
 .emojiSection-3Fb9ix img {
-    margin: auto;
-    min-width: 80%;
-    height: auto !important;
+margin: auto;
+min-width: 80%;
+height: auto !important;
 }
 /* Resizing the Emoji and making it large End */
-
 /* Text Wrapping */
 .emojiSection-3Fb9ix > .noWrap-3jynv6, .emojiSection-3Fb9ix{
-    flex: wrap;
-    flex-direction: column !important;
+flex: wrap;
+flex-direction: column !important;
 }
 /* Text Wrapping End */
-
 /* Adjusting the text weight and aligning it to center */
 .emojiName-27Bjxw {
-    font-weight: 600;
-    margin-top: 8px;
-    text-align: center;
+font-weight: 600;
+margin-top: 8px;
+text-align: center;
 /* Adjusting the text weight and aligning it to center End */
 /*------------------------------------------------------------------------------------------*/
 /* New Loading Screen Works Offline too */
 .container-16j22k {background: transparent; pointer-events: none}
 .container-16j22k>div {display: none}
 .container-16j22k::before {
-    content: "Lodaing Discord, Maybe Check Your Internet You Might Be Offline?";
-    display: block;
-    bottom: 24px; right: 24px;
-    position: absolute;
-    padding: 8px 16px;
-    background-color: #f04747;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: 500
+content: "Lodaing Discord, Maybe Check Your Internet You Might Be Offline?";
+display: block;
+bottom: 24px; right: 24px;
+position: absolute;
+padding: 8px 16px;
+background-color: #f04747;
+border-radius: 4px;
+color: #fff;
+font-weight: 500
 }
 /*------------------------------------------------------------------------------------------*/
