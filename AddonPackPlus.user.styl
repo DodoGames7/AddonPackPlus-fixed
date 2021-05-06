@@ -2,7 +2,7 @@
 
 --= Theme Stuff =--
 @name                                                                                 AddonPack+
-@version                                                                                   2.0.9
+@version                                                                                   3.0.0
 @description   Comfy With a Bunch of Snippets from The Powercord, Open Styles, & Comfy Community
 @license                                                                                 CC0-1.0
 @homepageURL                                      https://github.com/TheRealGWJosh/AddonPackPlus
@@ -16,14 +16,13 @@
 @author                                                 It'sJustJosh#2812 - (362628885361197056)
 @namespace                                                   github.com/openstyles/TheRealGWJosh
 
---=Imports/Selects=--
+--=Imports/Selects/Other=--
 @var select comfy "Comfy Theme On/Off" {
 "Normal":                    "https://therealgwjosh.github.io/AddonPackPlus/src/Comfy/vars.css",
 "Original":               "https://therealgwjosh.github.io/AddonPackPlus/src/OG-Comfy/vars.css",
 "Off":                                                                                   "none"}
 @var select addon "AddonPack On/Off" {
-"On":                               "https://therealgwjosh.github.io/AddonPackPlus/src/wtf.css",
-"No Discord Recolor":              "https://therealgwjosh.github.io/AddonPackPlus/src/bruh.css",
+"On":                              "https://therealgwjosh.github.io/AddonPackPlus/src/main.css",
 "Off":                                                                                   "none"}
 @var select tear "Teardrop Messages" {
 "On":          "https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Teardrop-Messages.css",
@@ -45,27 +44,52 @@
 @var select gs "Emoji Grayscale" {
 "Off":                                                                                     "0%",
 "On":                                                                                    "100%"}
-@var text  tm "Discord  Text"                 "'Discord - Themed By Stylus - AddonPack+ V2.0.9'"
+@var text  tm "Discord  Text"                     "'Discord - Themed By Stylus - AddonPack+ V3'"
 @var text csbg "Status Picker Image"                             https://i.imgur.com/yHP6sgj.png
+
+--=Dark Theme Vars--
+
+--Discord's Main Colors--
+@var color darkbgpr "Dark BG Pri" #23283d
+@var color darkbgse "Dark BG Sec" #1e2233
+@var color darkbgsealt "Dark BG Sec Alt" #191f2e
+@var color darkte "Dark Tertiary" #101320
+
+--Background Shit idk what it does--
+@var color darkbgac "Dark BG Accent" #6E85D3
+@var color darkbgmp "Dark BG Mobile Pri" #23283d
+
+
+--Icon Colors I think--
+@var color darkih "Dark Interactive Hover" #dcddde
+@var color darkia "Dark Interactive Active" #fff
+@var color darkin "Dark Interactive Normal" #b9bbbe
+@var color darkim "Dark Interactive Muted" #4f545c
+
+--=Light Theme Vars--
+
+--Discord's Main Colors--
+@var color lightbgpr "Light BG Pri" #e0dc89
+@var color lightbgse "Light BG Sec" #978e4a
+@var color lightbgsealt "Light BG Sec Alt" #58542c
+@var color lightte "Light Tertiary" #958c35
+
+--Background Shit idk what it does--
+@var color lightbgac "Light BG Accent" #c0c0a3
+@var color lightbgmp "Light BG Mobile Pri" #dfe1bd
+
+
+--Icon Colors I think--
+@var color lightih "Light Interactive Hover" #4e4e4e
+@var color lightia "Light Interactive Active" #000
+@var color lightin "Light Interactive Normal" #414243
+@var color lightim "Light Interactive Muted" #2e3136
 
 --=Text Vars=--
 @var text ubb "User Buttons Bottom"                                                          0px
 @var text ubw "User Buttons Width"                                                          72px
 @var text ubl "User Buttons Left"                                                            0px
 @var text fgh "Friend Grid Height"                                                         120px
-@var text ac1 "Accent Color"                                                       114, 137, 218
-@var text ac2 "Accent Color 2"                                                       255,115,250
-@var text tbst "Text Brightest"                                                      255,255,255
-@var text tber "Text Brighter"                                                       222,222,222
-@var text tbht "Text Bright"                                                         185,185,185
-@var text tdark "Text Dark"                                                          140,140,140
-@var text tder "Text Darker"                                                         115,115,115
-@var text tdst "Text Darkest"                                                           80,80,80
-@var text bp "Background Primary"                                                     29, 38, 59
-@var text bs "Background Secondary"                                                   30, 34, 51
-@var text bsa "Background Secondary Alt"                                              35, 40, 61
-@var text bt "Background Tertiary"                                                    25, 31, 46
-@var text bf "Background Floating"                                                  92, 103, 132
 @var text str "Status Radius"                                                                3px
 @var text svr "Server Radius"                                                                8px
 @var text ar "Avatar Radius"                                                                 5px
@@ -95,21 +119,42 @@
 ===================================================================================================
                                   Color Variables 
 ===================================================================================================
-*/:root{
-/*  --=Discord Recolor By DevilBro=--  */
---accentcolor: 		          /*[[ac1]]*/;		
---accentcolor2:               /*[[ac2]]*/;		
---textbrightest: 	         /*[[tbst]]*/;		
---textbrighter: 	         /*[[tber]]*/;		
---textbright:        	     /*[[tbht]]*/;			
---textdark: 	            /*[[tdark]]*/;		
---textdarker: 				 /*[[tder]]*/;		
---textdarkest: 				 /*[[tdst]]*/;			
---backgroundprimary: 		   /*[[bp]]*/;			
---backgroundsecondary: 		   /*[[bs]]*/;		
---backgroundsecondaryalt: 	  /*[[bsa]]*/;			
---backgroundtertiary: 		   /*[[bt]]*/;		
---backgroundfloating: 	       /*[[bf]]*/;	
+*/.theme-light{
+/* Discord's Main Colors */
+--background-primary: /*[[lightbgpr]]*/; /* Main body colour */
+--background-secondary: /*[[lightbgse]]*/; /* Channel list, embeds, side bar, message box, icons for sharing screen and etc*/
+--background-secondary-alt: /*[[lightbgsealt]]*/; /* On hover colour for people and channels, and your avatar thingy at the bottoms */
+--background-tertiary: /*[[lightte]]*/; /* Side bar around servers*/
+/* Background Shit idk what it does */
+--background-accent: /*[[lightbgac]]*/;
+--background-mobile-primary: /*[[lightbgmp]]*/;
+/* Icon Colors I think */
+--interactive-hover: /*[[lightih]]*/;
+--interactive-active: /*[[lightia]]*/;
+--interactive-normal: /*[[lightin]]*/; /* UI icons */
+--interactive-muted: /*[[lightim]]*/;  /* Quotes */
+/* Scrollbar Shit */
+--scrollbar-thin-thumb: var(--background-tertiary); /* Channel and people sidebar baby scroll colour */
+--scrollbar-auto-thumb: var(--background-tertiary); /* Message box baby scroll thingy */
+--scrollbar-auto-track: var(--background-secondary-alt); /* Non scrolly part of the scroll */}
+.theme-dark{
+/* Discord's Main Colors */
+--background-primary: /*[[darkbgpr]]*/; /* Main body colour */
+--background-secondary: /*[[darkbgse]]*/; /* Channel list, embeds, side bar, message box, icons for sharing screen and etc*/
+--background-secondary-alt: /*[[darkbgsealt]]*/; /* On hover colour for people and channels, and your avatar thingy at the bottoms */
+--background-tertiary: /*[[darkte]]*/; /* Side bar around servers*/
+/* Background Shit idk what it does */
+--background-accent: /*[[darkbgac]]*/;
+--background-mobile-primary: /*[[darkbgmp]]*/;
+/* Icon Colors I think */
+--interactive-hover: /*[[darkih]]*/;
+--interactive-active: /*[[darkia]]*/;
+--interactive-normal: /*[[darkin]]*/; /* UI icons */
+--interactive-muted: /*[[darkim]]*/;  /* Quotes */
+/* Scrollbar Shit */  
+--scrollbar-thin-thumb: var(--background-tertiary); /* Channel and people sidebar baby scroll colour */
+--scrollbar-auto-thumb: var(--background-tertiary); /* Message box baby scroll thingy */
+--scrollbar-auto-track: var(--background-secondary-alt); /* Non scrolly part of the scroll */
 }/*
 ====================================================================================================
                                   Theme Variables
