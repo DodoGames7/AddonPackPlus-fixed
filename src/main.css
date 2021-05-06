@@ -1,3 +1,4 @@
+/*------------------------------------------------------------------------------------------*/
 /* Other Imports */
 @import url("https://devinkid1.github.io/Pop/base.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
@@ -7,51 +8,43 @@
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/TextStatusIndicators/textstatus.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
 /*  TheRealGWJosh's Content */
+@import url("https://therealgwjosh.github.io/CustomCord/src/main.css");
 @import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Member-List.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Status.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ColoredConnections.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Member-List.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Comfer-Popouts.css");
-
-
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ColoredConnections.css");
+/*------------------------------------------------------------------------------------------*/
 :root {
-	--font:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;	
-	--settingsicons:			1;
-	--linkcolor: 				var(--accentcolor2);			
-	--mentioncolor: 			var(--accentcolor);	
-	--backgroundaccent: 	                var(--accentcolor);    		
-	--background-mentioned-side: rgb(114, 137, 218);
-	--background-mentioned: rgba(114, 137, 218, 0.05);
-	--background-mentioned-hover: rgba(114, 137, 218, 0.12);
-	--replying-side: rgb(2, 183, 87);
-	--replying-default: rgba(2, 183, 87, 0.05);
-	--replying-hovered: rgba(2, 183, 87, 0.12);
-	--local-bot-side: rgb(240, 71, 71);
-	--local-bot-default: rgba(240, 71, 71, 0.05);
-	--local-bot-hover: rgba(240, 71, 71, 0.12);
-	--unread-badge: rgba(255, 255, 255, 0.6) !important;
-	--unread-bg: rgba(255, 255, 255, 0.01) !important;
-	--selected-badge: rgb(112, 135, 215) !important;
-	--selected-bg: rgba(112, 135, 215, 0.1) !important;
-	--hovered-bg: rgba(79, 84, 92, 0.25) !important;
-	--bg-rounding: 0px 10px 10px 0px !important;
-	--border-line-type: solid !important;
-	/* For more info on different border line types, visit https://css-tricks.com/almanac/properties/b/border/ */
-	--tooltip-color: rgba(95, 118, 202, 0.5);
-	--tooltip-blur: blur(1.5px);
-	--border-radius: 15px 15px 0 0;
-	--left-radius: 5px;
-	--right-radius: 5px; 
-        --background-message-hover: transparent;
-        --newmessagesbar: rgba(165, 22, 22, 0.986); /* Change colour here for change */
-        /* For UserStatus */
-       --streaming:rgb(89, 54, 149);
-       --csbg: var(--status-background)!important;
-       --chat-buttons: var(--mention-color)!important;
+--replying-side: rgb(2, 183, 87);
+--replying-default: rgba(2, 183, 87, 0.05);
+--replying-hovered: rgba(2, 183, 87, 0.12);
+--local-bot-side: rgb(240, 71, 71);
+--local-bot-default: rgba(240, 71, 71, 0.05);
+--local-bot-hover: rgba(240, 71, 71, 0.12);
+--unread-badge: rgba(255, 255, 255, 0.6) !important;
+--unread-bg: rgba(255, 255, 255, 0.01) !important;
+--selected-badge: rgb(112, 135, 215) !important;
+--selected-bg: rgba(112, 135, 215, 0.1) !important;
+--hovered-bg: rgba(79, 84, 92, 0.25) !important;
+--bg-rounding: 0px 10px 10px 0px !important;
+--border-line-type: solid !important;
+/* For more info on different border line types, visit https://css-tricks.com/almanac/properties/b/border/ */
+--tooltip-color: rgba(95, 118, 202, 0.5);
+--tooltip-blur: blur(1.5px);
+--border-radius: 15px 15px 0 0;
+--left-radius: 5px;
+--right-radius: 5px; 
+--background-message-hover: transparent;
+--newmessagesbar: rgba(165, 22, 22, 0.986); /* Change colour here for change */
+/* For UserStatus */
+--streaming:rgb(89, 54, 149);
+--csbg: var(--status-background)!important;
+--chat-buttons: var(--mention-color)!important;
 }
 /*------------------------------------------------------------------------------------------*/
 /* setting button spinning */
