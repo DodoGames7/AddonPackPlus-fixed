@@ -1,18 +1,17 @@
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css');
+/* Other Imports */
 @import url("https://devinkid1.github.io/Pop/base.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterTooltips/tooltips.css");
-@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/CustomHighlightColor/highlight.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/TextStatusIndicators/textstatus.css");
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
+/*  TheRealGWJosh's Content */
+@import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Member-List.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
-@import url('https://therealgwjosh.github.io/CustomUserBadges/source/main.css');
-@import url("https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/round-stuff.css");
-@import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
-@import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Status.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ColoredConnections.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");
@@ -55,45 +54,28 @@
        --chat-buttons: var(--mention-color)!important;
 }
 /*------------------------------------------------------------------------------------------*/
-.theme-dark, .theme-light {
-    --modal-border-radius: 15px 15px 15px 15px; /* Popout Modal Borders */
-    --floating-border-radius: 15px 15px 15px 15px; /* Floating Tabs Borders */
-    --expanded-border-radius: 15px 15px 15px 15px; /* Big Modals Borders */
-    --hover-border-radius: 10px 10px 10px 10px; /* Used for like everything not just hovering */
-}
 /* setting button spinning */
 @keyframes spin { from { transform: rotate(0deg); }
-	to { transform: rotate(360deg); } }
+to { transform: rotate(360deg); } }
 .button-14-BFJ[aria-label="User Settings"]:hover svg { animation: spin 2s linear infinite; }
 /*------------------------------------------------------------------------------------------*/
-/* .avatarWrapper-2yR4wp[aria-expanded="true"] .wrapper-3t9DeA:before {background-image: var(--csbg)} */
-/* Add transparency & blur to the loading screen */
-.container-16j22k {
-    background-color: rgba(0,0,0,0.8);
-    backdrop-filter: blur(5px);
-}
-.container-3auIfb{
-   background: transparent !important;
-}
-.slider-TkfMQL{
-   left:-6px !important;
-}
-.slider-TkfMQL[style="left: 12px;"]>rect{
-   height:20px !important;
-   width:20px !important;
-   x:4px !important;
-   y:0px !important;
-   rx:5;
-   fill: var(--background-tertiary);
-}
-.slider-TkfMQL>rect{
-   height:20px !important;
-   width:20px !important;
-   x:4px !important;
-   y:0px !important;
-   rx:5;
-   fill: var(--background-secondary-alt);
-}
+/* New Closed Folder Icons */
+.closedFolderIconWrapper-2sTcE6 {
+display: flex;
+justify-content: center;
+align-items: center; }
+.closedFolderIconWrapper-2sTcE6 * {
+display: none; }
+.closedFolderIconWrapper-2sTcE6::after {
+content: '';
+width: 24px;
+height: 24px;
+position: relative;
+display: block;
+background: var(--mention-color);
+-webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat; }
+/*------------------------------------------------------------------------------------------*/
+/* Mobile Jump To Top Message & Mobile Mark as Read Buttons */
 .container-3auIfb{
    width:20px;
    height:20px;
@@ -146,22 +128,7 @@
 .channelTextArea-rNsIhG:hover .buttons-3JBrkn {
   opacity: 1.0;
 }
-
-	.closedFolderIconWrapper-2sTcE6 {
-		display: flex;
-		justify-content: center;
-		align-items: center; }
-	.closedFolderIconWrapper-2sTcE6 * {
-		display: none; }
-	.closedFolderIconWrapper-2sTcE6::after {
-		content: '';
-		width: 24px;
-		height: 24px;
-		position: relative;
-		display: block;
-		background: var(--mention-color);
-		-webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"/></svg>') center/contain no-repeat; }
-
+/*------------------------------------------------------------------------------------------*/
 /* Resizing the Emoji and making it large */
 .emojiSection-3Fb9ix img {
     margin: auto;
@@ -183,49 +150,8 @@
     margin-top: 8px;
     text-align: center;
 /* Adjusting the text weight and aligning it to center End */
-
 /*------------------------------------------------------------------------------------------*/
-
-/*Minified Members and Search*/
-/*By Fitil, Search fix by Cryptogenic*/
-.members-1998pB,
-.membersWrap-2h-GB4,
-.searchResultsWrap-3-pOjs {
-  border-radius: 0 0 0 0 !important;
-  width: 62px;
-  min-width: 60px;
-  transition-property: width, min-width;
-  transition-duration: 800ms;
-}
-.members-1998pB:hover,
-.membersWrap-2h-GB4:hover {
-  width: 240px;
-  min-width: 240px;
-}
-.searchResultsWrap-3-pOjs:hover {
-  width: 418px;
-  min-width: 418px;
-}
-.searchResultGroup-1DphGG {
-  width: 394px;
-}
-.membersWrap-2h-GB4,
-.searchResultsWrap-3-pOjs {
-  position: absolute;
-  right: 0;
-  height: 100%;
-  box-shadow: none;
-}
-.chatContent-a9vAAp {
-  min-width: calc(100% - 60px);
-  max-width: calc(100% - 60px);
-}
-
-.assetWrapper-3GNt0z { 
-    max-height: 10vh;
-    max-width: 10vh;
-}
-
+/* New Loading Screen Works Offline too */
 .container-16j22k {background: transparent; pointer-events: none}
 .container-16j22k>div {display: none}
 .container-16j22k::before {
@@ -239,3 +165,4 @@
     color: #fff;
     font-weight: 500
 }
+/*------------------------------------------------------------------------------------------*/
