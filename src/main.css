@@ -10,15 +10,13 @@
 /*  TheRealGWJosh's Content */
 @import url("https://therealgwjosh.github.io/CustomCord/src/alt.css");
 @import url("https://therealgwjosh.github.io/CustomUserBadges/source/main.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Status.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Sidebar.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/ChatBar.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Call-BG.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/UserWindow.css");
-@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/DTM-16-Settings");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Member-List.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Friend-Grid.css");
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/Comfer-Popouts.css");
+@import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/DTM-16-Settings.css");
 /*------------------------------------------------------------------------------------------*/
 :root {
 --replying-side: rgb(2, 183, 87);
