@@ -21,6 +21,7 @@
 @import url("https://therealgwjosh.github.io/AddonPackPlus/src/Addons/DTM-16-Settings.css");
 /*------------------------------------------------------------------------------------------*/
 :root {
+--channeltextarea-background: var(--background-mobile-primary);
 --replying-side: rgb(2, 183, 87);
 --replying-default: rgba(2, 183, 87, 0.05);
 --replying-hovered: rgba(2, 183, 87, 0.12);
